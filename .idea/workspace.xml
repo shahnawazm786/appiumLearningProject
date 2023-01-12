@@ -46,7 +46,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673493573512</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ramantest">
+      <created>1673494430871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673494430871</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Raman">
+      <created>1673494559879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673494559879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -61,6 +75,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ramantest" />
     <MESSAGE value="Raman" />
     <option name="LAST_COMMIT_MESSAGE" value="Raman" />
   </component>
