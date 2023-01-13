@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         int a=100;
-        int b
+        int b=100,c=200;
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
