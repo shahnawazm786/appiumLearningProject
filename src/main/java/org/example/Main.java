@@ -11,6 +11,11 @@ public class Main {
         System.out.println(c);
         System.out.println("I have added one line code");
         System.out.println("I have added one line code");
-
+        OverridingDemo demo=new OverridingDemo();
+        demo.getCounter();
+        OverridingExample demo1=new OverridingExample();
+        demo1.getCounter();
+        OverridingExample demo2=new OverridingDemo(); // Runtime
+        demo2.getCounter(); // counter is 100
     }
 }
