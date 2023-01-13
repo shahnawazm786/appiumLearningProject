@@ -12,6 +12,12 @@ public class Main {
         System.out.println("I have added one line code");
         System.out.println("I have added one line code");
         System.out.println("Raman system update");
+        /*
+            1. Commit your changes
+            2. Take the pull
+                Before pushig te code if you have conflict first fix the conflict then follow third step
+            3. Push your code
+         */
 
     }
 }
