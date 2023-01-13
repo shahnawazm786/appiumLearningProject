@@ -9,9 +9,8 @@ public class Main {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
-        System.out.println("Version control");
-        System.out.println("Harry's changes");
-        System.out.println("Committed by Bharat");
+        System.out.println("I have added one line code");
+        System.out.println("I have added one line code");
 
     }
 }
