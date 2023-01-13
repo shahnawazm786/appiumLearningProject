@@ -1,0 +1,39 @@
+Index: src/main/java/org/example/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n        int a=100;\r\n        int b=200;\r\n        int c=300;\r\n        System.out.println(a);\r\n        System.out.println(b);\r\n        System.out.println(c);\r\n        System.out.println(\"Version control\");\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+--- a/src/main/java/org/example/Main.java	(revision 68f8e743954d2e8086e0acb03443e77cddbf1698)
++++ b/src/main/java/org/example/Main.java	(date 1673495348483)
+@@ -10,6 +10,7 @@
+         System.out.println(b);
+         System.out.println(c);
+         System.out.println("Version control");
++        System.out.println("Harry's update");
+ 
+     }
+ }
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_19\" default=\"true\" project-jdk-name=\"openjdk-19\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 68f8e743954d2e8086e0acb03443e77cddbf1698)
++++ b/.idea/misc.xml	(date 1673495296135)
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
