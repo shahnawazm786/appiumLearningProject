@@ -1,6 +1,5 @@
 package org.example;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 public class CustomerClassCalledInMapExample {
     static Map<Integer,PersonInformation> person;
