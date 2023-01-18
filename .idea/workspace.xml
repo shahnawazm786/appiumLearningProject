@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 18 Jan 2023&#10;Calculator Test">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/exceloperations/DataReadingFromExcelExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/exceloperations/ExcelSecondOption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example1/FinalKeywordWithVaraibles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example1/FinalKeywordWithVaraibles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,22 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.FinalKeywordWithVaraibles">
-    <configuration name="Calculator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.Calculator1" />
+}]]></component>
+  <component name="RunManager" selected="Application.ExcelSecondOption">
+    <configuration name="DataReadingFromExcelExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.exceloperations.DataReadingFromExcelExample" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mobile.*" />
+          <option name="PATTERN" value="org.exceloperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerClassCalledInMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.CustomerClassCalledInMapExample" />
+    <configuration name="ExcelSecondOption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.exceloperations.ExcelSecondOption" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.exceloperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExcelSecondOption" />
+        <item itemvalue="Application.DataReadingFromExcelExample" />
         <item itemvalue="Application.FinalKeywordWithVaraibles" />
         <item itemvalue="Application.ImplFinalKeyWork" />
         <item itemvalue="Application.OverideDemo" />
-        <item itemvalue="Application.Calculator1" />
-        <item itemvalue="Application.CustomerClassCalledInMapExample" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674008548868</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="shahnawaz - 18 Jan 2023&#10;Calculator Test">
+      <created>1674012924362</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674012924362</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
