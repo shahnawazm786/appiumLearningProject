@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 18 Jan 2023&#10;Calculator Test">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/FlipKartContinueClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/IntelliJWorkspace/AppiumLearningProject/src/main/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.ReadExcelUisngXSSF">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IntelliJWorkspace\AppiumLearningProject\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FlipKartContinueClick">
     <configuration name="AlkaAppsOpenedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mobile.AlkaAppsOpenedClass" />
       <module name="AppiumLearningProject" />
@@ -69,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataReadingFromExcelExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exceloperations.DataReadingFromExcelExample" />
+    <configuration name="ExcelSecondOption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.exceloperations.ExcelSecondOption" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelSecondOption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exceloperations.ExcelSecondOption" />
+    <configuration name="FlipKartContinueClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.FlipKartContinueClick" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.exceloperations.*" />
+          <option name="PATTERN" value="mobile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlipKartContinueClick" />
         <item itemvalue="Application.ReadExcelUisngXSSF" />
         <item itemvalue="Application.AlkaAppsOpenedClass" />
         <item itemvalue="Application.AmazonHybridAppsAccess" />
         <item itemvalue="Application.ExcelSecondOption" />
-        <item itemvalue="Application.DataReadingFromExcelExample" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674062036252</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="shahnawaz - 18 Jan 2023&#10;Calculator Test">
+      <created>1674093485954</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674093485954</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
