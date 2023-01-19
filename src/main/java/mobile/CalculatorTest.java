@@ -32,7 +32,7 @@ public class CalculatorTest {
         AppiumDriver driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
        // WebDriver driver=new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
        // AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
-        driver.findElement(AppiumBy.id(""));
+       // driver.findElement(AppiumBy.id(""));
 
     }
 }
