@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 18 Jan 2023&#10;Calculator Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/FlipKartContinueClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 19 Jan 2023&#10;Calculator Test">
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/FlipKartContinueClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/FlipKartContinueClick.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674093485954</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="shahnawaz - 19 Jan 2023&#10;Calculator Test">
+      <created>1674103241833</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674103241833</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +273,8 @@
     <MESSAGE value="ramantest2" />
     <MESSAGE value="shahnawaz - 15 Jan 2023&#10;Calculator Test" />
     <MESSAGE value="shahnawaz - 18 Jan 2023&#10;Calculator Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 18 Jan 2023&#10;Calculator Test" />
+    <MESSAGE value="shahnawaz - 19 Jan 2023&#10;Calculator Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 19 Jan 2023&#10;Calculator Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

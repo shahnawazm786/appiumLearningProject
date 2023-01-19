@@ -23,6 +23,5 @@ public class FlipKartContinueClick {
         driver.findElement(By.xpath("(//android.widget.TextView)[9]")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("//*[@text=\"CONTINUE\"]")).click();
-
     }
 }
