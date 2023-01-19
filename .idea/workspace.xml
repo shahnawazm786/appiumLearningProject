@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 19 Jan 2023&#10;Calculator Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java" afterDir="false" />
+    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 19 Jan 2023&#10;API-Demos demo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/APIDemoLocatorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="C:\IntelliJWorkspace\AppiumLearningProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.APIDemoAPPsExample">
+  <component name="RunManager" selected="Application.APIDemoLocatorExample">
     <configuration name="APIDemoAPPsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mobile.APIDemoAPPsExample" />
       <module name="AppiumLearningProject" />
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlkaAppsOpenedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.AlkaAppsOpenedClass" />
+    <configuration name="APIDemoLocatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.APIDemoLocatorExample" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmazonHybridAppsAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.AmazonHybridAppsAccess" />
+    <configuration name="AlkaAppsOpenedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.AlkaAppsOpenedClass" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.APIDemoLocatorExample" />
         <item itemvalue="Application.APIDemoAPPsExample" />
         <item itemvalue="Application.FlipKartContinueClick" />
         <item itemvalue="Application.ReadExcelUisngXSSF" />
         <item itemvalue="Application.AlkaAppsOpenedClass" />
-        <item itemvalue="Application.AmazonHybridAppsAccess" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674109437865</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="shahnawaz - 19 Jan 2023&#10;Calculator Test">
+      <created>1674109972895</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1674109972895</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +297,8 @@
     <MESSAGE value="shahnawaz - 15 Jan 2023&#10;Calculator Test" />
     <MESSAGE value="shahnawaz - 18 Jan 2023&#10;Calculator Test" />
     <MESSAGE value="shahnawaz - 19 Jan 2023&#10;Calculator Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 19 Jan 2023&#10;Calculator Test" />
+    <MESSAGE value="shahnawaz - 19 Jan 2023&#10;API-Demos demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 19 Jan 2023&#10;API-Demos demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
