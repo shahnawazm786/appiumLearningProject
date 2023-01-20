@@ -21,12 +21,14 @@ public class ElementByIDExample {
         capabilities.setCapability("appActivity","io.appium.android.apis.ApiDemos");
         capabilities.setCapability("noReset","true");
         AppiumDriver driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub/"),capabilities);
-        Thread.sleep(10000);
+        Thread.sleep(1000);
         driver.findElement(AppiumBy.accessibilityId("Accessibility")).click();
-        Thread.sleep(20000);
+        Thread.sleep(2000);
         List<WebElement> elements = driver.findElements(AppiumBy.id("android:id/text1"));
         for(WebElement ele:elements){
             ele.click();
+            Thread.sleep(1000);
+            driver.navigate().back();
         }
 
     }
