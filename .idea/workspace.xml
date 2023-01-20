@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 19 Jan 2023&#10;API-Demos demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/APIDemoLocatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/AccessibilityIDExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="C:\IntelliJWorkspace\AppiumLearningProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.APIDemoLocatorExample">
+  <component name="RunManager" selected="Application.AccessibilityIDExample">
     <configuration name="APIDemoAPPsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mobile.APIDemoAPPsExample" />
       <module name="AppiumLearningProject" />
@@ -77,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlkaAppsOpenedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.AlkaAppsOpenedClass" />
+    <configuration name="AccessibilityIDExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.AccessibilityIDExample" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccessibilityIDExample" />
         <item itemvalue="Application.APIDemoLocatorExample" />
         <item itemvalue="Application.APIDemoAPPsExample" />
         <item itemvalue="Application.FlipKartContinueClick" />
         <item itemvalue="Application.ReadExcelUisngXSSF" />
-        <item itemvalue="Application.AlkaAppsOpenedClass" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674109972895</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="shahnawaz - 19 Jan 2023&#10;API-Demos demo">
+      <created>1674119983887</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1674119983887</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
