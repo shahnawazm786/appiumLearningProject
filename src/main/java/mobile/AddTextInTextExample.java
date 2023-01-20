@@ -30,9 +30,5 @@ public class AddTextInTextExample {
         Thread.sleep(2000);
         driver.findElement(AppiumBy.xpath("(//android.widget.TextView[@index=\"0\"])[2]")).click();
         Thread.sleep(1000);
-
-
-
-
     }
 }
