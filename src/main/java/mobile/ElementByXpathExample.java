@@ -23,6 +23,7 @@ public class ElementByXpathExample {
         Thread.sleep(1000);
         findElementByIndex(driver);
         findElementByContentDesc(driver);
+        findElementByAccessibility(driver);
 
         //
     }
@@ -38,5 +39,18 @@ public class ElementByXpathExample {
     public static void findElementByContentDesc(AppiumDriver driver){
         List<WebElement> elements =driver.findElements(AppiumBy.xpath("//android.widget.TextView[@content-desc='Accessibility']"));
         System.out.println("\"Content-Desc\" Size is -> "+ elements.size());
+    }
+    //Example of Xpath
+    // Atrribute is -> Accessibility
+    public static void findElementByAccessibility(AppiumDriver driver){
+        List<WebElement> elements =driver.findElements(AppiumBy.xpath("//android.widget.TextView[@text='Accessibility']"));
+        System.out.println("\"Accessibility\" Size is -> "+ elements.size());
+    }
+
+    //Example of Xpath
+    // Atrribute is -> resource-id
+    public static void findElementByResourceId(AppiumDriver driver){
+        List<WebElement> elements =driver.findElements(AppiumBy.xpath(""));
+        System.out.println("\"resource-id\" Size is -> "+ elements.size());
     }
 }
