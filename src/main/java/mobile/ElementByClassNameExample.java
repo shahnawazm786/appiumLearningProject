@@ -18,6 +18,7 @@ public class ElementByClassNameExample {
         capabilities.setCapability("noReset","true");
         AppiumDriver driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub/"),capabilities);
         Thread.sleep(1000);
-        
+
+
     }
 }
