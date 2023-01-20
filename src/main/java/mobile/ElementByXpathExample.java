@@ -24,8 +24,9 @@ public class ElementByXpathExample {
         findElementByIndex(driver);
         findElementByContentDesc(driver);
         findElementByAccessibility(driver);
+        findElementByResourceId(driver);
+        findElementByCheckable(driver);
 
-        //
     }
 
     //Example of Xpath
@@ -50,7 +51,16 @@ public class ElementByXpathExample {
     //Example of Xpath
     // Atrribute is -> resource-id
     public static void findElementByResourceId(AppiumDriver driver){
-        List<WebElement> elements =driver.findElements(AppiumBy.xpath(""));
+        List<WebElement> elements =driver.findElements(AppiumBy.xpath("//android.widget.TextView[@resource-id='android:id/text1']"));
         System.out.println("\"resource-id\" Size is -> "+ elements.size());
     }
+
+    //Example of Xpath
+    // Atrribute is -> checkable
+    public static void findElementByCheckable(AppiumDriver driver){
+        List<WebElement> elements =driver.findElements(AppiumBy.xpath("//android.widget.TextView[@checkable='false']"));
+        System.out.println("\"checkable\" Size is -> "+ elements.size());
+
+    }
+
 }
