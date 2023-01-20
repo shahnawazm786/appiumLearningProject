@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 19 Jan 2023&#10;API-Demos demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/APIDemoLocatorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java" afterDir="false" />
+    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/AddTextInTextExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/AddTextInTextExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
       <recent name="C:\IntelliJWorkspace\AppiumLearningProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.APIDemoLocatorExample">
+  <component name="RunManager" selected="Application.AddTextInTextExample">
     <configuration name="APIDemoAPPsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mobile.APIDemoAPPsExample" />
       <module name="AppiumLearningProject" />
@@ -77,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlkaAppsOpenedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.AlkaAppsOpenedClass" />
+    <configuration name="AccessibilityIDExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.AccessibilityIDExample" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlipKartContinueClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.FlipKartContinueClick" />
+    <configuration name="AddTextInTextExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.AddTextInTextExample" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadExcelUisngXSSF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exceloperations.ReadExcelUisngXSSF" />
+    <configuration name="ElementByXpathExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.ElementByXpathExample" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.exceloperations.*" />
+          <option name="PATTERN" value="mobile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddTextInTextExample" />
+        <item itemvalue="Application.ElementByXpathExample" />
+        <item itemvalue="Application.AccessibilityIDExample" />
         <item itemvalue="Application.APIDemoLocatorExample" />
         <item itemvalue="Application.APIDemoAPPsExample" />
-        <item itemvalue="Application.FlipKartContinueClick" />
-        <item itemvalue="Application.ReadExcelUisngXSSF" />
-        <item itemvalue="Application.AlkaAppsOpenedClass" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +273,105 @@
       <option name="project" value="LOCAL" />
       <updated>1674109972895</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="shahnawaz - 19 Jan 2023&#10;API-Demos demo">
+      <created>1674119983887</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1674119983887</updated>
+    </task>
+    <task id="LOCAL-00022" summary="shahnawaz - 19 Jan 2023&#10;API-Demos demo">
+      <created>1674184838616</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674184838616</updated>
+    </task>
+    <task id="LOCAL-00023" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674184851040</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1674184851040</updated>
+    </task>
+    <task id="LOCAL-00024" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674185074924</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1674185074924</updated>
+    </task>
+    <task id="LOCAL-00025" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674185541545</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1674185541545</updated>
+    </task>
+    <task id="LOCAL-00026" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674186771302</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1674186771302</updated>
+    </task>
+    <task id="LOCAL-00027" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674186813404</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1674186813404</updated>
+    </task>
+    <task id="LOCAL-00028" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674186832127</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674186832127</updated>
+    </task>
+    <task id="LOCAL-00029" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674186853858</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1674186853858</updated>
+    </task>
+    <task id="LOCAL-00030" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674187056242</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1674187056242</updated>
+    </task>
+    <task id="LOCAL-00031" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674187740540</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1674187740540</updated>
+    </task>
+    <task id="LOCAL-00032" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674187982038</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1674187982038</updated>
+    </task>
+    <task id="LOCAL-00033" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674188131005</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1674188131005</updated>
+    </task>
+    <task id="LOCAL-00034" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674190230812</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1674190230812</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +394,8 @@
     <MESSAGE value="shahnawaz - 18 Jan 2023&#10;Calculator Test" />
     <MESSAGE value="shahnawaz - 19 Jan 2023&#10;Calculator Test" />
     <MESSAGE value="shahnawaz - 19 Jan 2023&#10;API-Demos demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 19 Jan 2023&#10;API-Demos demo" />
+    <MESSAGE value="shahnawaz - 20 Jan 2023&#10;API-Demos demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 20 Jan 2023&#10;API-Demos demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
