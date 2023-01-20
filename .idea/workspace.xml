@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/AddTextInTextExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/SearchElementExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/ElementByXpathExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/ElementByXpathExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/AddTextInTextExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/AddTextInTextExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674188131005</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674190230812</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1674190230812</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

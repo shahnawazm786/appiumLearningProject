@@ -11,6 +11,7 @@ public class AddTextInTextExample {
     public static void main(String[] args) throws Exception{
         DesiredCapabilities capabilities=new DesiredCapabilities();
 
+
         capabilities.setCapability("deviceName","vivo 1920");
         capabilities.setCapability("udid","26976198");
         capabilities.setCapability("platformName","Android");
