@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/AddTextInTextExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/AddTextInTextExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testngexample/TestExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +50,7 @@
       <recent name="C:\IntelliJWorkspace\AppiumLearningProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddTextInTextExample">
-    <configuration name="APIDemoAPPsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.APIDemoAPPsExample" />
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestExample.Test_Case01">
     <configuration name="APIDemoLocatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mobile.APIDemoLocatorExample" />
       <module name="AppiumLearningProject" />
@@ -114,13 +103,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestExample.Test_Case01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testngexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testngexample" />
+      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestExample" />
+      <option name="METHOD_NAME" value="Test_Case01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestExample.Test_Case01" />
         <item itemvalue="Application.AddTextInTextExample" />
         <item itemvalue="Application.ElementByXpathExample" />
         <item itemvalue="Application.AccessibilityIDExample" />
         <item itemvalue="Application.APIDemoLocatorExample" />
-        <item itemvalue="Application.APIDemoAPPsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674190260600</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674190427141</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1674190427141</updated>
+    </task>
+    <task id="LOCAL-00037" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674190543189</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1674190543189</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
