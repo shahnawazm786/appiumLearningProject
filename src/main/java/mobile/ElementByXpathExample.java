@@ -22,6 +22,7 @@ public class ElementByXpathExample {
         AppiumDriver driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub/"),capabilities);
         Thread.sleep(1000);
         findElementByIndex(driver);
+        findElementByContentDesc(driver);
 
         //
     }
@@ -30,6 +31,12 @@ public class ElementByXpathExample {
     // Atrribute is -> Index
     public static void findElementByIndex(AppiumDriver driver){
         List<WebElement> elements = driver.findElements(AppiumBy.xpath("//android.widget.TextView[@index='0']"));
-        System.out.println("Size is"+ elements.size());
+        System.out.println("\"Index\" Size is -> "+ elements.size());
+    }
+    //Example of Xpath
+    // Atrribute is -> Content-Desc
+    public static void findElementByContentDesc(AppiumDriver driver){
+        List<WebElement> elements =driver.findElements(AppiumBy.xpath("//android.widget.TextView[@content-desc='Accessibility']"));
+        System.out.println("\"Content-Desc\" Size is -> "+ elements.size());
     }
 }
