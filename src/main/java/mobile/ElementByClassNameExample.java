@@ -1,9 +1,12 @@
 package mobile;
 
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
+import java.util.List;
 
 public class ElementByClassNameExample {
     public static void main(String[] args) throws  Exception{
@@ -18,8 +21,9 @@ public class ElementByClassNameExample {
         capabilities.setCapability("noReset","true");
         AppiumDriver driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub/"),capabilities);
         Thread.sleep(1000);
-
-
-
+        List<WebElement> elements = driver.findElements(AppiumBy.className("android.widget.TextView"));
+        for(WebElement element:elements){
+            System.out.println(element.getText());
+        }
     }
 }
