@@ -1,9 +1,13 @@
 package org.testngexample;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.net.URL;
 
 public class TestExample {
@@ -25,5 +29,9 @@ public class TestExample {
         Thread.sleep(1000);
         driver.findElement(AppiumBy.className("android.widget.EditText")).sendKeys("First Appium Project2");
         Thread.sleep(1000);
+        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File("./screenshot"), true);
+
+
     }
 }
