@@ -1,0 +1,1257 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>AppiumLearningProject</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>11</maven.compiler.source>\r\n        <maven.compiler.target>11</maven.compiler.target>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n    </properties>\r\n<dependencies>\r\n    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->\r\n    <dependency>\r\n        <groupId>org.seleniumhq.selenium</groupId>\r\n        <artifactId>selenium-java</artifactId>\r\n        <version>4.7.2</version>\r\n    </dependency>\r\n\r\n</dependencies>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
++++ b/pom.xml	(date 1674093702510)
+@@ -9,17 +9,41 @@
+     <version>1.0-SNAPSHOT</version>
+ 
+     <properties>
+-        <maven.compiler.source>11</maven.compiler.source>
+-        <maven.compiler.target>11</maven.compiler.target>
++        <maven.compiler.source>1.8</maven.compiler.source>
++        <maven.compiler.target>1.8</maven.compiler.target>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     </properties>
+ <dependencies>
+-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+     <dependency>
+         <groupId>org.seleniumhq.selenium</groupId>
+         <artifactId>selenium-java</artifactId>
+-        <version>4.7.2</version>
++        <version>3.141.59</version>
++    </dependency>
++
++    <dependency>
++        <groupId>io.appium</groupId>
++        <artifactId>java-client</artifactId>
++        <version>8.3.0</version>
++    </dependency>
++
++    <dependency>
++        <groupId>commons-io</groupId>
++        <artifactId>commons-io</artifactId>
++        <version>2.11.0</version>
++    </dependency>
++
++    <dependency>
++        <groupId>org.apache.poi</groupId>
++        <artifactId>poi</artifactId>
++        <version>5.2.3</version>
++    </dependency>
++
++    <dependency>
++        <groupId>org.apache.poi</groupId>
++        <artifactId>poi-ooxml</artifactId>
++        <version>5.2.3</version>
+     </dependency>
+ 
++
+ </dependencies>
+ </project>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37__Changes_.xml	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
++++ /dev/null	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]" date="1673575655392" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 13-01-2023 07:37 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: New/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch
+===================================================================
+diff --git a/New/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch b/New/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/New/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch	(revision 53c45e109497657125c40f4c72711cc0dd3d2463)
++++ /dev/null	(revision 53c45e109497657125c40f4c72711cc0dd3d2463)
+@@ -1,46 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"ramantest2\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2KCsb84FPVDtoyMCRX2hgm29Tyk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"\" />\r\n      <created>1673489970051</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1673489970051</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Raman\">\r\n      <created>1673493573512</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673493573512</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Ramantest\">\r\n      <created>1673494430871</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494430871</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Raman\">\r\n      <created>1673494559879</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494559879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"ramantest\">\r\n      <created>1673495011195</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495011195</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"ramantest2\">\r\n      <created>1673495145835</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495145835</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"ramantest2\">\r\n      <created>1673495222195</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495222195</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Ramantest\" />\r\n    <MESSAGE value=\"Raman\" />\r\n    <MESSAGE value=\"ramantest\" />\r\n    <MESSAGE value=\"ramantest2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ramantest2\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision cb46d26d97afc06d097080218e8a048a35f830c5)
+-+++ b/.idea/workspace.xml	(date 1673575438074)
+-@@ -4,7 +4,8 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="ramantest2">
+-+    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 13 Jan 2023">
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-@@ -81,7 +82,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1673495222195</updated>
+-     </task>
+--    <option name="localTasksCounter" value="7" />
+-+    <task id="LOCAL-00007" summary="shahnawaz - 13 Jan 2023">
+-+      <created>1673575210934</created>
+-+      <option name="number" value="00007" />
+-+      <option name="presentableId" value="LOCAL-00007" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1673575210934</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="8" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -100,6 +108,7 @@
+-     <MESSAGE value="Raman" />
+-     <MESSAGE value="ramantest" />
+-     <MESSAGE value="ramantest2" />
+--    <option name="LAST_COMMIT_MESSAGE" value="ramantest2" />
+-+    <MESSAGE value="shahnawaz - 13 Jan 2023" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 13 Jan 2023" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: New/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37__Changes_.xml
+===================================================================
+diff --git a/New/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37__Changes_.xml b/New/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37__Changes_.xml
+deleted file mode 100644
+--- a/New/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37__Changes_.xml	(revision 53c45e109497657125c40f4c72711cc0dd3d2463)
++++ /dev/null	(revision 53c45e109497657125c40f4c72711cc0dd3d2463)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]" date="1673575655392" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 13-01-2023 07:37 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
++++ /dev/null	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
+@@ -1,46 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"ramantest2\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2KCsb84FPVDtoyMCRX2hgm29Tyk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"\" />\r\n      <created>1673489970051</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1673489970051</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Raman\">\r\n      <created>1673493573512</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673493573512</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Ramantest\">\r\n      <created>1673494430871</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494430871</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Raman\">\r\n      <created>1673494559879</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494559879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"ramantest\">\r\n      <created>1673495011195</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495011195</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"ramantest2\">\r\n      <created>1673495145835</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495145835</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"ramantest2\">\r\n      <created>1673495222195</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495222195</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Ramantest\" />\r\n    <MESSAGE value=\"Raman\" />\r\n    <MESSAGE value=\"ramantest\" />\r\n    <MESSAGE value=\"ramantest2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ramantest2\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision cb46d26d97afc06d097080218e8a048a35f830c5)
+-+++ b/.idea/workspace.xml	(date 1673575438074)
+-@@ -4,7 +4,8 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="ramantest2">
+-+    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 13 Jan 2023">
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-@@ -81,7 +82,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1673495222195</updated>
+-     </task>
+--    <option name="localTasksCounter" value="7" />
+-+    <task id="LOCAL-00007" summary="shahnawaz - 13 Jan 2023">
+-+      <created>1673575210934</created>
+-+      <option name="number" value="00007" />
+-+      <option name="presentableId" value="LOCAL-00007" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1673575210934</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="8" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -100,6 +108,7 @@
+-     <MESSAGE value="Raman" />
+-     <MESSAGE value="ramantest" />
+-     <MESSAGE value="ramantest2" />
+--    <option name="LAST_COMMIT_MESSAGE" value="ramantest2" />
+-+    <MESSAGE value="shahnawaz - 13 Jan 2023" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 13 Jan 2023" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_54_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_54_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_54_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_54_PM_[Changes]/shelved.patch	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
++++ /dev/null	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
+@@ -1,61 +0,0 @@
+-Index: src/main/java/org/example/Main.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package org.example;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n        int a=100;\r\n        int b=200;\r\n        int c=300;\r\n        System.out.println(a);\r\n        System.out.println(b);\r\n        System.out.println(c);\r\n        System.out.println(1);\r\n        System.out.println(\"Raman Test\");\r\n\r\n\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+---- a/src/main/java/org/example/Main.java	(revision bf996fdec2249f77a4f59cab3721478d09591eea)
+-+++ b/src/main/java/org/example/Main.java	(date 1673495649518)
+-@@ -9,9 +9,8 @@
+-         System.out.println(a);
+-         System.out.println(b);
+-         System.out.println(c);
+--        System.out.println(1);
+--        System.out.println("Raman Test");
+--
+-+        System.out.println("Version control");
+-+        System.out.println("Harry's changes");
+- 
+-     }
+- }
+-\ No newline at end of file
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision bf996fdec2249f77a4f59cab3721478d09591eea)
+-+++ b/.idea/misc.xml	(date 1673495514236)
+-@@ -8,7 +8,7 @@
+-       </list>
+-     </option>
+-   </component>
+--  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+-+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+-     <output url="file://$PROJECT_DIR$/out" />
+-   </component>
+- </project>
+-\ No newline at end of file
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"ramantest2\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2KCsb84FPVDtoyMCRX2hgm29Tyk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"\" />\r\n      <created>1673489970051</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1673489970051</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Raman\">\r\n      <created>1673493573512</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673493573512</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Ramantest\">\r\n      <created>1673494430871</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494430871</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Raman\">\r\n      <created>1673494559879</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494559879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"ramantest\">\r\n      <created>1673495011195</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495011195</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"ramantest2\">\r\n      <created>1673495145835</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495145835</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"ramantest2\">\r\n      <created>1673495222195</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495222195</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Ramantest\" />\r\n    <MESSAGE value=\"Raman\" />\r\n    <MESSAGE value=\"ramantest\" />\r\n    <MESSAGE value=\"ramantest2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ramantest2\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision bf996fdec2249f77a4f59cab3721478d09591eea)
+-+++ b/.idea/workspace.xml	(date 1673495649541)
+-@@ -5,6 +5,7 @@
+-   </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="ramantest2">
+-+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_51_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_51_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_51_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_51_PM_[Changes]/shelved.patch	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
++++ /dev/null	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
+@@ -1,39 +0,0 @@
+-Index: src/main/java/org/example/Main.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package org.example;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n        int a=100;\r\n        int b=200;\r\n        int c=300;\r\n        System.out.println(a);\r\n        System.out.println(b);\r\n        System.out.println(c);\r\n        System.out.println(\"Version control\");\r\n\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+---- a/src/main/java/org/example/Main.java	(revision 68f8e743954d2e8086e0acb03443e77cddbf1698)
+-+++ b/src/main/java/org/example/Main.java	(date 1673495348483)
+-@@ -10,6 +10,7 @@
+-         System.out.println(b);
+-         System.out.println(c);
+-         System.out.println("Version control");
+-+        System.out.println("Harry's update");
+- 
+-     }
+- }
+-\ No newline at end of file
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_19\" default=\"true\" project-jdk-name=\"openjdk-19\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision 68f8e743954d2e8086e0acb03443e77cddbf1698)
+-+++ b/.idea/misc.xml	(date 1673495296135)
+-@@ -8,7 +8,7 @@
+-       </list>
+-     </option>
+-   </component>
+--  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+-+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+-     <output url="file://$PROJECT_DIR$/out" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: src/main/java/org/example/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n        int a=100;\r\n        int b=200;\r\n        int c=300;\r\n        System.out.println(a);\r\n        System.out.println(b);\r\n        System.out.println(c);\r\n        System.out.println(\"I have added one line code\");\r\n        System.out.println(\"I have added one line code\");\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+--- a/src/main/java/org/example/Main.java	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
++++ b/src/main/java/org/example/Main.java	(date 1674093702526)
+@@ -11,6 +11,7 @@
+         System.out.println(c);
+         System.out.println("I have added one line code");
+         System.out.println("I have added one line code");
+-
++        System.out.println("Commit Bharat");
++        System.out.println("Commit by Bharat");
+     }
+ }
+\ No newline at end of file
+Index: New/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"shahnawaz - 19 Jan 2023&#10;API-Demos demo\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/mobile/APIDemoLocatorExample.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2KCsb84FPVDtoyMCRX2hgm29Tyk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/IntelliJWorkspace/AppiumLearningProject/src/main/resources&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\IntelliJWorkspace\\AppiumLearningProject\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.APIDemoLocatorExample\">\r\n    <configuration name=\"APIDemoAPPsExample\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"mobile.APIDemoAPPsExample\" />\r\n      <module name=\"AppiumLearningProject\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"mobile.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"APIDemoLocatorExample\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"mobile.APIDemoLocatorExample\" />\r\n      <module name=\"AppiumLearningProject\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"mobile.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"AlkaAppsOpenedClass\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"mobile.AlkaAppsOpenedClass\" />\r\n      <module name=\"AppiumLearningProject\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"mobile.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FlipKartContinueClick\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"mobile.FlipKartContinueClick\" />\r\n      <module name=\"AppiumLearningProject\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"mobile.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ReadExcelUisngXSSF\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.exceloperations.ReadExcelUisngXSSF\" />\r\n      <module name=\"AppiumLearningProject\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.exceloperations.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.APIDemoLocatorExample\" />\r\n        <item itemvalue=\"Application.APIDemoAPPsExample\" />\r\n        <item itemvalue=\"Application.FlipKartContinueClick\" />\r\n        <item itemvalue=\"Application.ReadExcelUisngXSSF\" />\r\n        <item itemvalue=\"Application.AlkaAppsOpenedClass\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"\" />\r\n      <created>1673489970051</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1673489970051</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Raman\">\r\n      <created>1673493573512</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673493573512</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Ramantest\">\r\n      <created>1673494430871</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494430871</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Raman\">\r\n      <created>1673494559879</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494559879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"ramantest\">\r\n      <created>1673495011195</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495011195</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"ramantest2\">\r\n      <created>1673495145835</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495145835</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"ramantest2\">\r\n      <created>1673495222195</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495222195</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"shahnawaz - 15 Jan 2023&#10;Calculator Test\">\r\n      <created>1673924091553</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673924091553</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"shahnawaz - 15 Jan 2023&#10;Calculator Test\">\r\n      <created>1673928570562</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673928570562</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"shahnawaz - 15 Jan 2023&#10;Calculator Test\">\r\n      <created>1673931886138</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673931886138</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"shahnawaz - 15 Jan 2023&#10;Calculator Test\">\r\n      <created>1674007886290</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674007886290</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"shahnawaz - 15 Jan 2023&#10;Calculator Test\">\r\n      <created>1674008334210</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674008334210</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"shahnawaz - 18 Jan 2023&#10;Calculator Test\">\r\n      <created>1674008548868</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674008548868</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"shahnawaz - 18 Jan 2023&#10;Calculator Test\">\r\n      <created>1674012924362</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674012924362</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"shahnawaz - 18 Jan 2023&#10;Calculator Test\">\r\n      <created>1674015096162</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674015096162</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"shahnawaz - 18 Jan 2023&#10;Calculator Test\">\r\n      <created>1674062036252</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674062036252</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"shahnawaz - 18 Jan 2023&#10;Calculator Test\">\r\n      <created>1674093485954</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674093485954</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"shahnawaz - 19 Jan 2023&#10;Calculator Test\">\r\n      <created>1674103241833</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674103241833</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"shahnawaz - 19 Jan 2023&#10;Calculator Test\">\r\n      <created>1674109344200</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674109344200</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"shahnawaz - 19 Jan 2023&#10;Calculator Test\">\r\n      <created>1674109437865</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674109437865</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"shahnawaz - 19 Jan 2023&#10;Calculator Test\">\r\n      <created>1674109972895</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674109972895</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"21\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Ramantest\" />\r\n    <MESSAGE value=\"Raman\" />\r\n    <MESSAGE value=\"ramantest\" />\r\n    <MESSAGE value=\"ramantest2\" />\r\n    <MESSAGE value=\"shahnawaz - 15 Jan 2023&#10;Calculator Test\" />\r\n    <MESSAGE value=\"shahnawaz - 18 Jan 2023&#10;Calculator Test\" />\r\n    <MESSAGE value=\"shahnawaz - 19 Jan 2023&#10;Calculator Test\" />\r\n    <MESSAGE value=\"shahnawaz - 19 Jan 2023&#10;API-Demos demo\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"shahnawaz - 19 Jan 2023&#10;API-Demos demo\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.ArrayIndexOutOfBoundsException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/New/.idea/workspace.xml b/New/.idea/workspace.xml
+--- a/New/.idea/workspace.xml	(revision 53c45e109497657125c40f4c72711cc0dd3d2463)
++++ b/New/.idea/workspace.xml	(date 1674187285205)
+@@ -5,9 +5,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 19 Jan 2023&#10;API-Demos demo">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/APIDemoLocatorExample.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/APIDemoAPPsExample.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_28__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37__Changes_.xml" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: New/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/New/.idea/misc.xml b/New/.idea/misc.xml
+--- a/New/.idea/misc.xml	(revision 53c45e109497657125c40f4c72711cc0dd3d2463)
++++ b/New/.idea/misc.xml	(date 1674184089343)
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
++++ b/.idea/misc.xml	(date 1674093860162)
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision f5c1e32f3c84ce65c333ab4af81294061a8f2eab)
++++ b/.idea/vcs.xml	(date 1674184302186)
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/New" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/org/exceloperations/ReadExcelUisngXSSF.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/exceloperations/ReadExcelUisngXSSF.java b/src/main/java/org/exceloperations/ReadExcelUisngXSSF.java
+new file mode 100644
+--- /dev/null	(date 1674093702540)
++++ b/src/main/java/org/exceloperations/ReadExcelUisngXSSF.java	(date 1674093702540)
+@@ -0,0 +1,33 @@
++package org.exceloperations;
++
++import org.apache.poi.ss.usermodel.Cell;
++import org.apache.poi.ss.usermodel.Row;
++import org.apache.poi.xssf.usermodel.XSSFCell;
++import org.apache.poi.xssf.usermodel.XSSFRow;
++import org.apache.poi.xssf.usermodel.XSSFSheet;
++import org.apache.poi.xssf.usermodel.XSSFWorkbook;
++
++import java.io.File;
++import java.io.FileInputStream;
++import java.io.FileNotFoundException;
++import java.io.IOException;
++
++public class ReadExcelUisngXSSF {
++    public static void main(String[] args) throws IOException {
++        File file=new File("C:\\Users\\shahn\\OneDrive\\Desktop\\Appium-Batch-Morning\\TestCases.xlsx");
++        FileInputStream inputStream=new FileInputStream(file);
++        XSSFWorkbook workbook=new XSSFWorkbook(inputStream);
++        XSSFSheet sheet =workbook.getSheetAt(0);
++        for(Row row :sheet)
++        {
++            for(Cell cell:row){
++                System.out.print(cell.getStringCellValue()+"\t");
++            }
++            System.out.println();
++        }
++        workbook.close();
++        inputStream.close();
++        file=null;
++
++    }
++}
+Index: src/main/java/org/exceloperations/DataReadingFromExcelExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/exceloperations/DataReadingFromExcelExample.java b/src/main/java/org/exceloperations/DataReadingFromExcelExample.java
+new file mode 100644
+--- /dev/null	(date 1674093702538)
++++ b/src/main/java/org/exceloperations/DataReadingFromExcelExample.java	(date 1674093702538)
+@@ -0,0 +1,41 @@
++package org.exceloperations;
++
++import org.apache.poi.hssf.usermodel.HSSFCell;
++import org.apache.poi.hssf.usermodel.HSSFRow;
++import org.apache.poi.hssf.usermodel.HSSFSheet;
++import org.apache.poi.hssf.usermodel.HSSFWorkbook;
++
++import java.io.File;
++import java.io.FileInputStream;
++import java.io.FileNotFoundException;
++import java.io.IOException;
++
++public class DataReadingFromExcelExample {
++    public static void main(String[] args) throws IOException {
++
++        File file=new File("C:\\Users\\shahn\\OneDrive\\Desktop\\Appium-Batch-Morning\\TestCases.xls");
++        FileInputStream fileInputStream=new FileInputStream(file);
++
++        if(fileInputStream==null){
++            throw new FileNotFoundException("File not found....");
++        }
++        else {
++
++            HSSFWorkbook workbook=new HSSFWorkbook(fileInputStream);
++            //HSSFSheet sheet=workbook.getSheetAt(0);
++            HSSFSheet sheet=workbook.getSheet("Sheet1");
++            int row=sheet.getLastRowNum();
++            for(int i=0;i<row;i++){
++                HSSFRow rows=sheet.getRow(i);
++                int column=rows.getLastCellNum();
++                for(int j=0; j<column; j++){
++                    HSSFCell cell=rows.getCell(j);
++                    System.out.print(cell.getStringCellValue()+"\t");
++                }
++                System.out.println();
++            }
++
++        }
++
++    }
++}
+Index: src/main/java/org/exceloperations/ExcelSecondOption.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/exceloperations/ExcelSecondOption.java b/src/main/java/org/exceloperations/ExcelSecondOption.java
+new file mode 100644
+--- /dev/null	(date 1674093702539)
++++ b/src/main/java/org/exceloperations/ExcelSecondOption.java	(date 1674093702539)
+@@ -0,0 +1,36 @@
++package org.exceloperations;
++
++
++import org.apache.poi.hssf.usermodel.HSSFSheet;
++import org.apache.poi.hssf.usermodel.HSSFWorkbook;
++import org.apache.poi.ss.usermodel.Cell;
++import org.apache.poi.ss.usermodel.Row;
++
++import java.io.File;
++import java.io.FileInputStream;
++import java.io.FileNotFoundException;
++import java.io.IOException;
++
++
++public class ExcelSecondOption {
++    public static void main(String[] args) throws FileNotFoundException, IOException {
++
++        File file=new File("C:\\Users\\shahn\\OneDrive\\Desktop\\Appium-Batch-Morning\\TestCases.xlsx");
++        FileInputStream fileInputStream=new FileInputStream(file);
++        if(fileInputStream==null){
++            throw new FileNotFoundException("File not found....");
++        }
++        else {
++
++            HSSFWorkbook workbook = new HSSFWorkbook(fileInputStream);
++            HSSFSheet sheet = workbook.getSheetAt(0);
++            for(Row row: sheet){
++                for(Cell cell:row){
++                    System.out.print(cell.getStringCellValue()+"\t");
++                }
++                System.out.println();
++            }
++        }
++
++    }
++}
+Index: src/main/java/org/example1/FinalMethod.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example1/FinalMethod.java b/src/main/java/org/example1/FinalMethod.java
+new file mode 100644
+--- /dev/null	(date 1674093702536)
++++ b/src/main/java/org/example1/FinalMethod.java	(date 1674093702536)
+@@ -0,0 +1,7 @@
++package org.example1;
++
++public class FinalMethod {
++    public final void showMessage(){
++        System.out.println("I am final method. I can't be override");
++    }
++}
+Index: src/main/java/org/example1/ImplFinalKeyWork.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example1/ImplFinalKeyWork.java b/src/main/java/org/example1/ImplFinalKeyWork.java
+new file mode 100644
+--- /dev/null	(date 1674093702537)
++++ b/src/main/java/org/example1/ImplFinalKeyWork.java	(date 1674093702537)
+@@ -0,0 +1,8 @@
++package org.example1;
++
++public class ImplFinalKeyWork {
++    public static void main(String[] args) {
++        FinalClassExample fc=new FinalClassExample();
++        fc.showMessage();
++    }
++}
+Index: src/main/java/org/example1/FinalClassExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example1/FinalClassExample.java b/src/main/java/org/example1/FinalClassExample.java
+new file mode 100644
+--- /dev/null	(date 1674093702535)
++++ b/src/main/java/org/example1/FinalClassExample.java	(date 1674093702535)
+@@ -0,0 +1,7 @@
++package org.example1;
++
++public final class FinalClassExample {
++    public void showMessage(){
++        System.out.println("Final Class can't be extended");
++    }
++}
+Index: src/main/java/org/example1/FinalKeywordWithVaraibles.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example1/FinalKeywordWithVaraibles.java b/src/main/java/org/example1/FinalKeywordWithVaraibles.java
+new file mode 100644
+--- /dev/null	(date 1674093702535)
++++ b/src/main/java/org/example1/FinalKeywordWithVaraibles.java	(date 1674093702535)
+@@ -0,0 +1,14 @@
++package org.example1;
++
++public class FinalKeywordWithVaraibles {
++    static final double pie=3.141;
++    public static void main(String[] args) {
++        int radious=5;
++        double res= pie * (radious * radious);
++        System.out.println(res);
++        //pie= 4.414; // we can assing the value because it is defined as a final variable
++        res= pie * (radious * radious);
++        System.out.println(res);
++
++    }
++}
+Index: src/main/java/org/example1/ExtendFinalClassExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example1/ExtendFinalClassExample.java b/src/main/java/org/example1/ExtendFinalClassExample.java
+new file mode 100644
+--- /dev/null	(date 1674093702533)
++++ b/src/main/java/org/example1/ExtendFinalClassExample.java	(date 1674093702533)
+@@ -0,0 +1,6 @@
++package org.example1;
++
++public class ExtendFinalClassExample //extends FinalClassExample
++{
++    // we can't extend with Final class
++}
+Index: src/main/java/org/example1/ExtendFinalMethodExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example1/ExtendFinalMethodExample.java b/src/main/java/org/example1/ExtendFinalMethodExample.java
+new file mode 100644
+--- /dev/null	(date 1674093702534)
++++ b/src/main/java/org/example1/ExtendFinalMethodExample.java	(date 1674093702534)
+@@ -0,0 +1,13 @@
++package org.example1;
++
++public class ExtendFinalMethodExample extends  FinalMethod{
++    /*public void showMessage(){
++        System.out.println("Can't be override");
++    }*/
++    public void run(){
++        System.out.println("Run method");
++    }
++    public void show(){
++        System.out.println("show method");
++    }
++}
+Index: src/main/java/org/example/Greeting.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Greeting.java b/src/main/java/org/example/Greeting.java
+new file mode 100644
+--- /dev/null	(date 1674093702522)
++++ b/src/main/java/org/example/Greeting.java	(date 1674093702522)
+@@ -0,0 +1,10 @@
++package org.example;
++
++public class Greeting {
++    public void greets(){
++        System.out.println("Hello!!! All");
++    }
++   /* public Greeting(String message){ // constructor with one parameter
++        System.out.println("Hell!!! All Good " +message);
++    }*/
++}
+Index: src/main/java/org/example/GreetChild_02.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/GreetChild_02.java b/src/main/java/org/example/GreetChild_02.java
+new file mode 100644
+--- /dev/null	(date 1674093702519)
++++ b/src/main/java/org/example/GreetChild_02.java	(date 1674093702519)
+@@ -0,0 +1,9 @@
++package org.example;
++
++public class GreetChild_02 extends Greeting{
++
++    public void greets(){
++
++        System.out.println("Greeting from Child_02");
++    }
++}
+Index: src/main/java/org/example/Pen.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Pen.java b/src/main/java/org/example/Pen.java
+new file mode 100644
+--- /dev/null	(date 1674093702529)
++++ b/src/main/java/org/example/Pen.java	(date 1674093702529)
+@@ -0,0 +1,7 @@
++package org.example;
++
++public class Pen {
++    public void getPen(){
++        System.out.println("Flair");
++    }
++}
+Index: src/main/java/org/example/HashMapExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/HashMapExample.java b/src/main/java/org/example/HashMapExample.java
+new file mode 100644
+--- /dev/null	(date 1674093702523)
++++ b/src/main/java/org/example/HashMapExample.java	(date 1674093702523)
+@@ -0,0 +1,26 @@
++package org.example;
++
++import java.util.Map;
++import java.util.HashMap;
++
++public class HashMapExample {
++    // Map -> Entry => (Key and Value) => Key Value Pair Data
++    Map<Integer,String> map=new HashMap<>();
++
++    public static void main(String[] args) {
++        Map<Integer,String> map=new HashMap<>();
++        map.put(100, "Math");
++        map.put(98, "Science");
++        map.put(99, "Physichs");
++        // String, Integer
++        map.put(100, "Social Studies"); // duplicate key in map
++
++        System.out.println(map.get(100));
++        System.out.println(map.get(98));
++
++        map.remove(99);
++        System.out.println(map.get(99));
++    }
++
++
++}
+Index: src/main/java/org/example/CustomerClassCalledInMapExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/CustomerClassCalledInMapExample.java b/src/main/java/org/example/CustomerClassCalledInMapExample.java
+new file mode 100644
+--- /dev/null	(date 1674093702518)
++++ b/src/main/java/org/example/CustomerClassCalledInMapExample.java	(date 1674093702518)
+@@ -0,0 +1,25 @@
++package org.example;
++import java.util.HashMap;
++import java.util.Map;
++public class CustomerClassCalledInMapExample {
++    static Map<Integer,PersonInformation> person;
++
++    public static void main(String[] args) {
++        person=new HashMap<>();
++        person.put(1,new PersonInformation(100,"Mahatama Gandhi",2000.00));
++        person.put(2,new PersonInformation(101,"Jawahar Lal Nehru",1200.00));
++        person.put(3,new PersonInformation(103,"Bill Gates",1300.00));
++        person.put(4,new PersonInformation(104,"Warren Buffer",1400.00));
++        for(Map.Entry entry : person.entrySet()){
++            System.out.println(entry.getKey());
++            //System.out.println((PersonInformation)entry.getValue());
++            PersonInformation per=(PersonInformation)entry.getValue();
++            System.out.println(per.getPersonNo());
++            System.out.println(per.getPersonName());
++            System.out.println(per.getPersonSalary());
++
++        }
++
++
++    }
++}
+Index: src/main/java/org/example/CollectionExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/CollectionExample.java b/src/main/java/org/example/CollectionExample.java
+new file mode 100644
+--- /dev/null	(date 1674093702517)
++++ b/src/main/java/org/example/CollectionExample.java	(date 1674093702517)
+@@ -0,0 +1,29 @@
++package org.example;
++
++import java.util.ArrayList;
++import java.util.Iterator;
++import java.util.List;
++
++public class CollectionExample {
++    public static void main(String[] args) {
++        // int - > Integer
++        // float -> Float
++        List<Integer> marks=new ArrayList<>();
++        marks.add(82);
++        marks.add(81);
++        marks.add(80);
++        marks.add(79);
++        marks.add(78);
++        Iterator itrs= marks.listIterator();
++        while(itrs.hasNext()){
++            Integer a=(Integer) itrs.next();
++            System.out.println(a);
++
++        }
++        marks.remove(2);
++        System.out.println(marks);
++        marks.add(3,75);
++        System.out.println(marks);
++    }
++
++}
+Index: src/main/java/org/example/GreetChild_03.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/GreetChild_03.java b/src/main/java/org/example/GreetChild_03.java
+new file mode 100644
+--- /dev/null	(date 1674093702521)
++++ b/src/main/java/org/example/GreetChild_03.java	(date 1674093702521)
+@@ -0,0 +1,8 @@
++package org.example;
++
++public class GreetChild_03 extends   Greeting{
++
++    public void greets(){
++        System.out.println("Greeting from Child03");
++    }
++}
+Index: src/main/java/org/example/OverideDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/OverideDemo.java b/src/main/java/org/example/OverideDemo.java
+new file mode 100644
+--- /dev/null	(date 1674093702527)
++++ b/src/main/java/org/example/OverideDemo.java	(date 1674093702527)
+@@ -0,0 +1,21 @@
++package org.example;
++
++public class OverideDemo {
++    public static void main(String[] args) {
++        Greeting gr=new Greeting(); // Greeting() -default constructor
++        gr.greets();
++        // calling the greets() method of
++        //GreetChild_01 gr1=new GreetChild_01();
++        //gr1.greets();
++        Greeting gr1= new GreetChild_01();
++        gr1.greets();
++        Greeting gr2= new GreetChild_02();
++        gr2.greets();
++        Greeting gr3= new GreetChild_03();
++        gr3.greets();
++       // Book b=new Pen();
++
++
++
++    }
++}
+Index: src/main/java/org/example/IntegerArrayExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/IntegerArrayExample.java b/src/main/java/org/example/IntegerArrayExample.java
+new file mode 100644
+--- /dev/null	(date 1674093702524)
++++ b/src/main/java/org/example/IntegerArrayExample.java	(date 1674093702524)
+@@ -0,0 +1,19 @@
++package org.example;
++
++public class IntegerArrayExample {
++    public static void main(String[] args) {
++        int[] marks={81,82,80,79,78};
++        System.out.println(marks[2]);
++        System.out.println(marks[4]);
++        //System.out.println(marks[5]);
++        double incr=1000.00;
++        double []sal={1009.99,3450.99,2345.900};
++        for(int i=0; i<sal.length;i++){
++            System.out.println(sal[i]);
++        }
++        char[] vowel={'a','e','i','o','u'};
++        for(int i=0; i<vowel.length;i++){
++            System.out.println(vowel[i]);
++        }
++    }
++}
+Index: src/main/java/org/example/Book.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Book.java b/src/main/java/org/example/Book.java
+new file mode 100644
+--- /dev/null	(date 1674093702516)
++++ b/src/main/java/org/example/Book.java	(date 1674093702516)
+@@ -0,0 +1,7 @@
++package org.example;
++
++public class Book {
++    public void getBook(){
++        System.out.println("Java Book");
++    }
++}
+Index: src/main/java/org/example/GreetChild_01.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/GreetChild_01.java b/src/main/java/org/example/GreetChild_01.java
+new file mode 100644
+--- /dev/null	(date 1674093702519)
++++ b/src/main/java/org/example/GreetChild_01.java	(date 1674093702519)
+@@ -0,0 +1,7 @@
++package org.example;
++
++public class GreetChild_01 extends  Greeting{
++    public void greets(){
++        System.out.println("Greeting from Child_01");
++    }
++}
+Index: src/main/java/org/example/PersonInformation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/PersonInformation.java b/src/main/java/org/example/PersonInformation.java
+new file mode 100644
+--- /dev/null	(date 1674093702531)
++++ b/src/main/java/org/example/PersonInformation.java	(date 1674093702531)
+@@ -0,0 +1,21 @@
++package org.example;
++
++public class PersonInformation {
++     private  int personNo;
++      private String personName;
++     private  double personSalary;
++    public PersonInformation(int personNo,String personName,double personSalary){
++        this.personName=personName;
++        this.personSalary=personSalary;
++        this.personNo=personNo;
++    }
++    public int getPersonNo(){
++        return this.personNo;
++    }
++    public String getPersonName(){
++        return this.personName;
++    }
++    public double getPersonSalary(){
++        return this.personSalary;
++    }
++}
+\ No newline at end of file
+Index: src/main/java/mobile/Calculator1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/mobile/Calculator1.java b/src/main/java/mobile/Calculator1.java
+new file mode 100644
+--- /dev/null	(date 1674093702514)
++++ b/src/main/java/mobile/Calculator1.java	(date 1674093702514)
+@@ -0,0 +1,24 @@
++package mobile;
++
++import io.appium.java_client.AppiumDriver;
++import org.openqa.selenium.remote.DesiredCapabilities;
++
++import java.net.MalformedURLException;
++import java.net.URL;
++
++public class Calculator1 {
++    public static void main(String[] args) throws MalformedURLException {
++        DesiredCapabilities capabilities=new DesiredCapabilities();
++        //capabilities.setCapability("appium:appPackage","com.android.bbkcalculator");
++        //capabilities.setCapability("appActivity",".Calculator");
++        capabilities.setCapability("browserName","chrome");
++        capabilities.setCapability("appium:deviceName","vivo 1920");
++        capabilities.setCapability("platformName","Android");
++        capabilities.setCapability("appium:platformVersion","12");
++        //
++        capabilities.setCapability("appium:udid","26976198");
++        capabilities.setCapability("chromedriverExecutable", "C:\\Users\\shahn\\OneDrive\\Desktop\\android-sdk\\chromedriver\\chromedriver.exe");
++        AppiumDriver driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub/"),capabilities);
++        driver.get("https://www.amazon.in/");
++    }
++}
+Index: src/main/java/mobile/CalculatorTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/mobile/CalculatorTest.java b/src/main/java/mobile/CalculatorTest.java
+new file mode 100644
+--- /dev/null	(date 1674093702515)
++++ b/src/main/java/mobile/CalculatorTest.java	(date 1674093702515)
+@@ -0,0 +1,38 @@
++package mobile;
++
++
++import io.appium.java_client.AppiumBy;
++import io.appium.java_client.AppiumDriver;
++import io.appium.java_client.android.AndroidDriver;
++import org.openqa.selenium.WebDriver;
++
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.remote.DesiredCapabilities;
++import org.openqa.selenium.remote.RemoteWebDriver;
++
++import java.net.MalformedURLException;
++import java.net.URL;
++
++public class CalculatorTest {
++
++
++    public static void main(String[] args) throws MalformedURLException {
++        openCalculatorDevice();
++    }
++    public static void openCalculatorDevice() throws MalformedURLException {
++        DesiredCapabilities capabilities=new DesiredCapabilities();
++        capabilities.setCapability("deviceName","vivo 1920");
++        capabilities.setCapability("udid","26976198");
++        capabilities.setCapability("platformName","Android");
++        capabilities.setCapability("platformVersion","12");
++        //capabilities.setCapability("automationName","UiAutomator1");
++//
++        capabilities.setCapability("appPackage","com.android.bbkcalculator");
++        capabilities.setCapability("appActivity",".Calculator");
++        AppiumDriver driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
++       // WebDriver driver=new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
++       // AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
++       // driver.findElement(AppiumBy.id(""));
++
++    }
++}
+Index: src/main/java/mobile/AlkaAppsOpenedClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/mobile/AlkaAppsOpenedClass.java b/src/main/java/mobile/AlkaAppsOpenedClass.java
+new file mode 100644
+--- /dev/null	(date 1674093702512)
++++ b/src/main/java/mobile/AlkaAppsOpenedClass.java	(date 1674093702512)
+@@ -0,0 +1,27 @@
++package mobile;
++
++import io.appium.java_client.AppiumDriver;
++import org.openqa.selenium.remote.DesiredCapabilities;
++
++import java.net.MalformedURLException;
++import java.net.URL;
++
++public class AlkaAppsOpenedClass {
++    public static void main(String[] args) throws MalformedURLException,InterruptedException {
++        DesiredCapabilities capabilities=new DesiredCapabilities();
++
++        capabilities.setCapability("deviceName","vivo 1920");
++        capabilities.setCapability("udid","26976198");
++        capabilities.setCapability("platformName","Android");
++        capabilities.setCapability("platformVersion","12");
++        capabilities.setCapability("appium:appPackage","com.escodro.alkaa");
++        capabilities.setCapability("appium:appActivity","com.escodro.alkaa.presentation.MainActivity");
++        /*
++        "appium:appPackage": "com.escodro.alkaa",
++        "appium:appActivity":"com.escodro.alkaa.presentation.MainActivity"
++         */
++        AppiumDriver driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub/"),capabilities);
++        Thread.sleep(10000);
++
++    }
++}
+Index: src/main/java/mobile/AmazonHybridAppsAccess.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/mobile/AmazonHybridAppsAccess.java b/src/main/java/mobile/AmazonHybridAppsAccess.java
+new file mode 100644
+--- /dev/null	(date 1674093702513)
++++ b/src/main/java/mobile/AmazonHybridAppsAccess.java	(date 1674093702513)
+@@ -0,0 +1,25 @@
++package mobile;
++
++import io.appium.java_client.AppiumDriver;
++import org.openqa.selenium.remote.DesiredCapabilities;
++
++import java.net.MalformedURLException;
++import java.net.URL;
++
++public class AmazonHybridAppsAccess {
++    public static void main(String[] args) throws MalformedURLException,Exception {
++        DesiredCapabilities capabilities=new DesiredCapabilities();
++
++        capabilities.setCapability("deviceName","vivo 1920");
++        capabilities.setCapability("udid","26976198");
++        capabilities.setCapability("platformName","Android");
++        capabilities.setCapability("platformVersion","12");
++        capabilities.setCapability("browserName","chrome");
++        capabilities.setCapability("chromedriverExecutable","C:\\Users\\shahn\\OneDrive\\Desktop\\android-sdk\\chromedriver\\chromedriver.exe");
++        AppiumDriver driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub/"),capabilities);
++        driver.get("https://www.amazon.in/");
++        Thread.sleep(10000);
++        driver.close();
++
++    }
++}
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1674093702508)
++++ b/.idea/uiDesigner.xml	(date 1674093702508)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file

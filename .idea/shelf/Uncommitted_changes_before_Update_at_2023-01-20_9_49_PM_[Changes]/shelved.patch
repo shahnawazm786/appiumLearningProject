@@ -1,0 +1,410 @@
+Index: src/main/java/mobile/AlkaAppsOpenedClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package mobile;\r\n\r\nimport io.appium.java_client.AppiumDriver;\r\nimport org.openqa.selenium.remote.DesiredCapabilities;\r\n\r\nimport java.net.MalformedURLException;\r\nimport java.net.URL;\r\n\r\npublic class AlkaAppsOpenedClass {\r\n    public static void main(String[] args) throws MalformedURLException,InterruptedException {\r\n        DesiredCapabilities capabilities=new DesiredCapabilities();\r\n\r\n        capabilities.setCapability(\"deviceName\",\"vivo 1920\");\r\n        capabilities.setCapability(\"udid\",\"26976198\");\r\n        capabilities.setCapability(\"platformName\",\"Android\");\r\n        capabilities.setCapability(\"platformVersion\",\"12\");\r\n        capabilities.setCapability(\"appium:appPackage\",\"com.escodro.alkaa\");\r\n        capabilities.setCapability(\"appium:appActivity\",\"com.escodro.alkaa.presentation.MainActivity\");\r\n        /*\r\n        \"appium:appPackage\": \"com.escodro.alkaa\",\r\n        \"appium:appActivity\":\"com.escodro.alkaa.presentation.MainActivity\"\r\n         */\r\n        AppiumDriver driver=new AppiumDriver(new URL(\"http://127.0.0.1:4723/wd/hub/\"),capabilities);\r\n        Thread.sleep(10000);\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/mobile/AlkaAppsOpenedClass.java b/src/main/java/mobile/AlkaAppsOpenedClass.java
+--- a/src/main/java/mobile/AlkaAppsOpenedClass.java	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ b/src/main/java/mobile/AlkaAppsOpenedClass.java	(date 1674269308926)
+@@ -1,6 +1,6 @@
+ package mobile;
+ 
+-import io.appium.java_client.AppiumDriver;
++//import io.appium.java_client.AppiumDriver;
+ import org.openqa.selenium.remote.DesiredCapabilities;
+ 
+ import java.net.MalformedURLException;
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_54_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_54_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_54_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_54_PM_[Changes]/shelved.patch	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ /dev/null	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
+@@ -1,61 +0,0 @@
+-Index: src/main/java/org/example/Main.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package org.example;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n        int a=100;\r\n        int b=200;\r\n        int c=300;\r\n        System.out.println(a);\r\n        System.out.println(b);\r\n        System.out.println(c);\r\n        System.out.println(1);\r\n        System.out.println(\"Raman Test\");\r\n\r\n\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+---- a/src/main/java/org/example/Main.java	(revision bf996fdec2249f77a4f59cab3721478d09591eea)
+-+++ b/src/main/java/org/example/Main.java	(date 1673495649518)
+-@@ -9,9 +9,8 @@
+-         System.out.println(a);
+-         System.out.println(b);
+-         System.out.println(c);
+--        System.out.println(1);
+--        System.out.println("Raman Test");
+--
+-+        System.out.println("Version control");
+-+        System.out.println("Harry's changes");
+- 
+-     }
+- }
+-\ No newline at end of file
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision bf996fdec2249f77a4f59cab3721478d09591eea)
+-+++ b/.idea/misc.xml	(date 1673495514236)
+-@@ -8,7 +8,7 @@
+-       </list>
+-     </option>
+-   </component>
+--  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+-+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+-     <output url="file://$PROJECT_DIR$/out" />
+-   </component>
+- </project>
+-\ No newline at end of file
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"ramantest2\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2KCsb84FPVDtoyMCRX2hgm29Tyk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"\" />\r\n      <created>1673489970051</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1673489970051</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Raman\">\r\n      <created>1673493573512</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673493573512</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Ramantest\">\r\n      <created>1673494430871</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494430871</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Raman\">\r\n      <created>1673494559879</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494559879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"ramantest\">\r\n      <created>1673495011195</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495011195</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"ramantest2\">\r\n      <created>1673495145835</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495145835</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"ramantest2\">\r\n      <created>1673495222195</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495222195</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Ramantest\" />\r\n    <MESSAGE value=\"Raman\" />\r\n    <MESSAGE value=\"ramantest\" />\r\n    <MESSAGE value=\"ramantest2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ramantest2\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision bf996fdec2249f77a4f59cab3721478d09591eea)
+-+++ b/.idea/workspace.xml	(date 1673495649541)
+-@@ -5,6 +5,7 @@
+-   </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="ramantest2">
+-+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_51_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_51_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_51_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_51_PM_[Changes]/shelved.patch	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ /dev/null	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
+@@ -1,39 +0,0 @@
+-Index: src/main/java/org/example/Main.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package org.example;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n        int a=100;\r\n        int b=200;\r\n        int c=300;\r\n        System.out.println(a);\r\n        System.out.println(b);\r\n        System.out.println(c);\r\n        System.out.println(\"Version control\");\r\n\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+---- a/src/main/java/org/example/Main.java	(revision 68f8e743954d2e8086e0acb03443e77cddbf1698)
+-+++ b/src/main/java/org/example/Main.java	(date 1673495348483)
+-@@ -10,6 +10,7 @@
+-         System.out.println(b);
+-         System.out.println(c);
+-         System.out.println("Version control");
+-+        System.out.println("Harry's update");
+- 
+-     }
+- }
+-\ No newline at end of file
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_19\" default=\"true\" project-jdk-name=\"openjdk-19\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision 68f8e743954d2e8086e0acb03443e77cddbf1698)
+-+++ b/.idea/misc.xml	(date 1673495296135)
+-@@ -8,7 +8,7 @@
+-       </list>
+-     </option>
+-   </component>
+--  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+-+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+-     <output url="file://$PROJECT_DIR$/out" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: src/main/java/org/example/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n        int a=100;\r\n        int b=200;\r\n        int c=300;\r\n        System.out.println(a);\r\n        System.out.println(b);\r\n        System.out.println(c);\r\n        System.out.println(\"I have added one line code\");\r\n        System.out.println(\"I have added one line code\");\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+--- a/src/main/java/org/example/Main.java	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ b/src/main/java/org/example/Main.java	(date 1674268914180)
+@@ -11,6 +11,7 @@
+         System.out.println(c);
+         System.out.println("I have added one line code");
+         System.out.println("I have added one line code");
+-
++        System.out.println("Commit Bharat");
++        System.out.println("Commit by Bharat");
+     }
+ }
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ b/.idea/misc.xml	(date 1674269034131)
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/org/example/HashMapExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\nimport java.util.Map;\r\nimport java.util.HashMap;\r\n\r\npublic class HashMapExample {\r\n    // Map -> Entry => (Key and Value) => Key Value Pair Data\r\n    Map<Integer,String> map=new HashMap<>();\r\n\r\n    public static void main(String[] args) {\r\n        Map<Integer,String> map=new HashMap<>();\r\n        map.put(100, \"Math\");\r\n        map.put(98, \"Science\");\r\n        map.put(99, \"Physics\");\r\n        // String, Integer\r\n        map.put(100, \"Social Studies\"); // duplicate key in map\r\n\r\n        System.out.println(map.get(100));\r\n        System.out.println(map.get(98));\r\n\r\n        map.remove(99);\r\n        System.out.println(map.get(99));\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/HashMapExample.java b/src/main/java/org/example/HashMapExample.java
+--- a/src/main/java/org/example/HashMapExample.java	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ b/src/main/java/org/example/HashMapExample.java	(date 1674268925303)
+@@ -11,7 +11,7 @@
+         Map<Integer,String> map=new HashMap<>();
+         map.put(100, "Math");
+         map.put(98, "Science");
+-        map.put(99, "Physics");
++        map.put(99, "Physichs");
+         // String, Integer
+         map.put(100, "Social Studies"); // duplicate key in map
+ 
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ b/.idea/vcs.xml	(date 1674268925180)
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/New" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/hari/TestNGExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/hari/TestNGExample.java b/src/main/java/hari/TestNGExample.java
+new file mode 100644
+--- /dev/null	(date 1674269308938)
++++ b/src/main/java/hari/TestNGExample.java	(date 1674269308938)
+@@ -0,0 +1,7 @@
++package hari;
++
++public class TestNGExample {
++public void test(){
++
++}
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"ramantest2\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2KCsb84FPVDtoyMCRX2hgm29Tyk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"40057eb9-b405-4a7f-ba21-f82b4fa8bf0b\" name=\"Changes\" comment=\"\" />\r\n      <created>1673489970051</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1673489970051</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Raman\">\r\n      <created>1673493573512</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673493573512</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Ramantest\">\r\n      <created>1673494430871</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494430871</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Raman\">\r\n      <created>1673494559879</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673494559879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"ramantest\">\r\n      <created>1673495011195</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495011195</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"ramantest2\">\r\n      <created>1673495145835</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495145835</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"ramantest2\">\r\n      <created>1673495222195</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673495222195</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Ramantest\" />\r\n    <MESSAGE value=\"Raman\" />\r\n    <MESSAGE value=\"ramantest\" />\r\n    <MESSAGE value=\"ramantest2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ramantest2\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ b/.idea/workspace.xml	(date 1674269309637)
+@@ -4,13 +4,33 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="ramantest2">
++    <list default="true" id="51b40fc0-7b55-4aea-b95a-159b03cf10bd" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/src/main/java/hari/TestNGExample.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_28__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_51_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_54_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/New/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/New/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/New/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/New/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/AlkaAppsOpenedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/AlkaAppsOpenedClass.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMapExample.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceloperations/DataReadingFromExcelExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exceloperations/DataReadingFromExcelExample.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceloperations/ExcelSecondOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exceloperations/ExcelSecondOption.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>AppiumLearningProject</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>1.8</maven.compiler.source>\r\n        <maven.compiler.target>1.8</maven.compiler.target>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n    </properties>\r\n<dependencies>\r\n\r\n\r\n    <dependency>\r\n        <groupId>io.appium</groupId>\r\n        <artifactId>java-client</artifactId>\r\n        <version>8.3.0</version>\r\n    </dependency>\r\n\r\n    <dependency>\r\n        <groupId>commons-io</groupId>\r\n        <artifactId>commons-io</artifactId>\r\n        <version>2.11.0</version>\r\n    </dependency>\r\n\r\n    <dependency>\r\n        <groupId>org.apache.poi</groupId>\r\n        <artifactId>poi</artifactId>\r\n        <version>5.2.3</version>\r\n    </dependency>\r\n    <dependency>\r\n        <groupId>org.apache.poi</groupId>\r\n        <artifactId>poi-ooxml</artifactId>\r\n        <version>5.2.3</version>\r\n    </dependency>\r\n    <dependency>\r\n        <groupId>org.testng</groupId>\r\n        <artifactId>testng</artifactId>\r\n        <version>7.7.1</version>\r\n        <scope>test</scope>\r\n    </dependency>\r\n    <dependency>\r\n        <groupId>org.testng</groupId>\r\n        <artifactId>testng</artifactId>\r\n        <version>7.4.0</version>\r\n    </dependency>\r\n\r\n\r\n</dependencies>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ b/pom.xml	(date 1674269133425)
+@@ -9,46 +9,24 @@
+     <version>1.0-SNAPSHOT</version>
+ 
+     <properties>
+-        <maven.compiler.source>1.8</maven.compiler.source>
+-        <maven.compiler.target>1.8</maven.compiler.target>
++        <maven.compiler.source>11</maven.compiler.source>
++        <maven.compiler.target>11</maven.compiler.target>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     </properties>
+ <dependencies>
+-
+-
+-    <dependency>
+-        <groupId>io.appium</groupId>
+-        <artifactId>java-client</artifactId>
+-        <version>8.3.0</version>
+-    </dependency>
+-
+-    <dependency>
+-        <groupId>commons-io</groupId>
+-        <artifactId>commons-io</artifactId>
+-        <version>2.11.0</version>
+-    </dependency>
+-
+-    <dependency>
+-        <groupId>org.apache.poi</groupId>
+-        <artifactId>poi</artifactId>
+-        <version>5.2.3</version>
+-    </dependency>
++    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+     <dependency>
+-        <groupId>org.apache.poi</groupId>
+-        <artifactId>poi-ooxml</artifactId>
+-        <version>5.2.3</version>
++        <groupId>org.seleniumhq.selenium</groupId>
++        <artifactId>selenium-java</artifactId>
++        <version>4.7.2</version>
+     </dependency>
++    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+     <dependency>
+         <groupId>org.testng</groupId>
+         <artifactId>testng</artifactId>
+         <version>7.7.1</version>
+         <scope>test</scope>
+     </dependency>
+-    <dependency>
+-        <groupId>org.testng</groupId>
+-        <artifactId>testng</artifactId>
+-        <version>7.4.0</version>
+-    </dependency>
+ 
+ 
+ </dependencies>
+Index: src/main/java/org/exceloperations/DataReadingFromExcelExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.exceloperations;\r\n\r\nimport org.apache.poi.hssf.usermodel.HSSFCell;\r\nimport org.apache.poi.hssf.usermodel.HSSFRow;\r\nimport org.apache.poi.hssf.usermodel.HSSFSheet;\r\nimport org.apache.poi.hssf.usermodel.HSSFWorkbook;\r\nimport org.apache.poi.xssf.usermodel.XSSFCell;\r\nimport org.apache.poi.xssf.usermodel.XSSFRow;\r\nimport org.apache.poi.xssf.usermodel.XSSFSheet;\r\nimport org.apache.poi.xssf.usermodel.XSSFWorkbook;\r\n\r\nimport java.io.File;\r\nimport java.io.FileInputStream;\r\nimport java.io.FileNotFoundException;\r\nimport java.io.IOException;\r\n\r\npublic class DataReadingFromExcelExample {\r\n    public static void main(String[] args) throws IOException {\r\n\r\n        File file=new File(\"C:\\\\Users\\\\simmi\\\\Documents\\\\OneNote Notebooks\\\\hansbir\\\\Book1.xlsx\");\r\n        FileInputStream fileInputStream=new FileInputStream(file);\r\n\r\n        if(fileInputStream==null){\r\n            throw new FileNotFoundException(\"File not found....\");\r\n        }\r\n        else {\r\n\r\n\r\n            //HSSFWorkbook workbook=new HSSFWorkbook(fileInputStream);\r\n            XSSFWorkbook workbook=new XSSFWorkbook(fileInputStream);\r\n            //HSSFSheet sheet=workbook.getSheetAt(0);\r\n            XSSFSheet sheet=workbook.getSheetAt(0);\r\n            //HSSFSheet sheet=workbook.getSheet(\"Sheet1\");\r\n            int row=sheet.getLastRowNum();\r\n            for(int i=0;i<row;i++){\r\n               // HSSFRow rows=sheet.getRow(i);\r\n                XSSFRow rows=sheet.getRow(i);\r\n                int column=rows.getLastCellNum();\r\n                for(int j=0; j<column; j++){\r\n                    XSSFCell cell=rows.getCell(j);\r\n\r\n                  //  HSSFCell cell=rows.getCell(j);\r\n                    System.out.print(cell.getStringCellValue()+\"\\t\");\r\n                }\r\n                System.out.println();\r\n            }\r\n\r\n        }\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/exceloperations/DataReadingFromExcelExample.java b/src/main/java/org/exceloperations/DataReadingFromExcelExample.java
+--- a/src/main/java/org/exceloperations/DataReadingFromExcelExample.java	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ b/src/main/java/org/exceloperations/DataReadingFromExcelExample.java	(date 1674268925196)
+@@ -4,10 +4,6 @@
+ import org.apache.poi.hssf.usermodel.HSSFRow;
+ import org.apache.poi.hssf.usermodel.HSSFSheet;
+ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+-import org.apache.poi.xssf.usermodel.XSSFCell;
+-import org.apache.poi.xssf.usermodel.XSSFRow;
+-import org.apache.poi.xssf.usermodel.XSSFSheet;
+-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+ 
+ import java.io.File;
+ import java.io.FileInputStream;
+@@ -17,7 +13,7 @@
+ public class DataReadingFromExcelExample {
+     public static void main(String[] args) throws IOException {
+ 
+-        File file=new File("C:\\Users\\simmi\\Documents\\OneNote Notebooks\\hansbir\\Book1.xlsx");
++        File file=new File("C:\\Users\\shahn\\OneDrive\\Desktop\\Appium-Batch-Morning\\TestCases.xls");
+         FileInputStream fileInputStream=new FileInputStream(file);
+ 
+         if(fileInputStream==null){
+@@ -25,21 +21,15 @@
+         }
+         else {
+ 
+-
+-            //HSSFWorkbook workbook=new HSSFWorkbook(fileInputStream);
+-            XSSFWorkbook workbook=new XSSFWorkbook(fileInputStream);
++            HSSFWorkbook workbook=new HSSFWorkbook(fileInputStream);
+             //HSSFSheet sheet=workbook.getSheetAt(0);
+-            XSSFSheet sheet=workbook.getSheetAt(0);
+-            //HSSFSheet sheet=workbook.getSheet("Sheet1");
++            HSSFSheet sheet=workbook.getSheet("Sheet1");
+             int row=sheet.getLastRowNum();
+             for(int i=0;i<row;i++){
+-               // HSSFRow rows=sheet.getRow(i);
+-                XSSFRow rows=sheet.getRow(i);
++                HSSFRow rows=sheet.getRow(i);
+                 int column=rows.getLastCellNum();
+                 for(int j=0; j<column; j++){
+-                    XSSFCell cell=rows.getCell(j);
+-
+-                  //  HSSFCell cell=rows.getCell(j);
++                    HSSFCell cell=rows.getCell(j);
+                     System.out.print(cell.getStringCellValue()+"\t");
+                 }
+                 System.out.println();
+Index: src/main/java/org/exceloperations/ExcelSecondOption.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.exceloperations;\r\n\r\n\r\nimport org.apache.poi.hssf.usermodel.HSSFSheet;\r\nimport org.apache.poi.hssf.usermodel.HSSFWorkbook;\r\nimport org.apache.poi.ss.usermodel.Cell;\r\nimport org.apache.poi.ss.usermodel.Row;\r\n\r\nimport java.io.File;\r\nimport java.io.FileInputStream;\r\nimport java.io.FileNotFoundException;\r\nimport java.io.IOException;\r\n\r\n\r\npublic class ExcelSecondOption {\r\n    public static void main(String[] args) throws FileNotFoundException, IOException {\r\n\r\n        File file=new File(\"C:\\\\Users\\\\shahn\\\\OneDrive\\\\Desktop\\\\Appium-Batch-Morning\\\\Book1.xlsx\");\r\n        FileInputStream fileInputStream=new FileInputStream(file);\r\n        if(fileInputStream==null){\r\n            throw new FileNotFoundException(\"File not found....\");\r\n        }\r\n        else {\r\n\r\n            HSSFWorkbook workbook = new HSSFWorkbook(fileInputStream);\r\n            HSSFSheet sheet = workbook.getSheetAt(0);\r\n            for(Row row: sheet){\r\n                for(Cell cell:row){\r\n                    System.out.print(cell.getStringCellValue()+\"\\t\");\r\n                }\r\n                System.out.println();\r\n            }\r\n        }\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/exceloperations/ExcelSecondOption.java b/src/main/java/org/exceloperations/ExcelSecondOption.java
+--- a/src/main/java/org/exceloperations/ExcelSecondOption.java	(revision e6f0f24e7c76315abec50ac5efb870075560e324)
++++ b/src/main/java/org/exceloperations/ExcelSecondOption.java	(date 1674268925225)
+@@ -15,7 +15,7 @@
+ public class ExcelSecondOption {
+     public static void main(String[] args) throws FileNotFoundException, IOException {
+ 
+-        File file=new File("C:\\Users\\shahn\\OneDrive\\Desktop\\Appium-Batch-Morning\\Book1.xlsx");
++        File file=new File("C:\\Users\\shahn\\OneDrive\\Desktop\\Appium-Batch-Morning\\TestCases.xlsx");
+         FileInputStream fileInputStream=new FileInputStream(file);
+         if(fileInputStream==null){
+             throw new FileNotFoundException("File not found....");
