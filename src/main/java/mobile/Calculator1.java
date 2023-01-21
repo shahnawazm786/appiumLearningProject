@@ -12,11 +12,11 @@ public class Calculator1 {
         //capabilities.setCapability("appium:appPackage","com.android.bbkcalculator");
         //capabilities.setCapability("appActivity",".Calculator");
         capabilities.setCapability("browserName","chrome");
-        capabilities.setCapability("appium:deviceName","vivo 1920");
+        capabilities.setCapability("appium:deviceName","Redmi Note 8 Pro");
         capabilities.setCapability("platformName","Android");
-        capabilities.setCapability("appium:platformVersion","12");
+        capabilities.setCapability("appium:platformVersion","12.5.10");
         //
-        capabilities.setCapability("appium:udid","26976198");
+        capabilities.setCapability("appium:udid","jzz57xbqcqtw7xi7");
         capabilities.setCapability("chromedriverExecutable", "C:\\Users\\shahn\\OneDrive\\Desktop\\android-sdk\\chromedriver\\chromedriver.exe");
         AppiumDriver driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub/"),capabilities);
         driver.get("https://www.amazon.in/");
