@@ -36,6 +36,17 @@ static ExtentTest logger;
     System.out.println("First Test Case001");
     Assert.assertTrue(true);
 
+    logger.log(Status.INFO,"Test method - 01");
+    logger.log(Status.INFO, "iPhone Device");
+    logger.log(Status.INFO, "Searching iPhone - search");
+
+    // Using Labels
+    logger.log(Status.INFO, MarkupHelper.createLabel("*************** Using Labels ***************", ExtentColor.GREEN));
+    logger.log(Status.INFO, MarkupHelper.createLabel("This is Test Logger 1", ExtentColor.YELLOW));
+    logger.log(Status.INFO, MarkupHelper.createLabel("This is Test Logger 2", ExtentColor.LIME));
+    logger.log(Status.INFO, MarkupHelper.createLabel("This is Test Logger 3", ExtentColor.INDIGO));
+    logger.log(Status.INFO, MarkupHelper.createLabel("This is Test Logger 4", ExtentColor.ORANGE));
+
 }
     @Test
     public void TestCase002(){
@@ -63,6 +74,7 @@ static ExtentTest logger;
         System.out.println("Third Test Case001");
         System.out.println("Third Test Case001");
         Assert.assertFalse(true);
+
 
     }
 
