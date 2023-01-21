@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/extentreportsdemo/ExtenReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/extentreportsdemo/ExtenReportExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extent-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/extent-reports/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,20 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673489970051</updated>
-    </task>
-    <task id="LOCAL-00013" summary="shahnawaz - 18 Jan 2023&#10;Calculator Test">
-      <created>1674012924362</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1674012924362</updated>
-    </task>
-    <task id="LOCAL-00014" summary="shahnawaz - 18 Jan 2023&#10;Calculator Test">
-      <created>1674015096162</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1674015096162</updated>
     </task>
     <task id="LOCAL-00015" summary="shahnawaz - 18 Jan 2023&#10;Calculator Test">
       <created>1674062036252</created>
@@ -506,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674299927936</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674300311407</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1674300311407</updated>
+    </task>
+    <task id="LOCAL-00063" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674300325258</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1674300325258</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
