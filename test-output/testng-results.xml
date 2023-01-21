@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="31" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+    <groups>
+    </groups>
+    <test name="C:/IntelliJWorkspace/AppiumLearningProject" duration-ms="31" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+      <class name="org.testngexample.TestNGExample_03">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.testngexample.TestNGExample_03@61f8bee4]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.testngexample.TestNGExample_03@61f8bee4]" name="beforeTest" is-config="true" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.testngexample.TestNGExample_03@61f8bee4]" name="beforeClass" is-config="true" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.testngexample.TestNGExample_03@61f8bee4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:org.testngexample.TestNGExample_03@61f8bee4]" name="Test" duration-ms="1" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.testngexample.TestNGExample_03@61f8bee4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.testngexample.TestNGExample_03@61f8bee4]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.testngexample.TestNGExample_03@61f8bee4]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.testngexample.TestNGExample_03@61f8bee4]" name="afterSuite" is-config="true" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.testngexample.TestNGExample_03 -->
+      <class name="org.testngexample.TestNGExample_01">
+        <test-method status="PASS" signature="getShow1()[pri:0, instance:org.testngexample.TestNGExample_01@2038ae61]" name="getShow1" duration-ms="1" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShow1 -->
+        <test-method status="PASS" signature="add()[pri:2, instance:org.testngexample.TestNGExample_01@2038ae61]" name="add" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="getShow2()[pri:1, instance:org.testngexample.TestNGExample_01@2038ae61]" name="getShow2" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShow2 -->
+        <test-method status="PASS" signature="add1()[pri:3, instance:org.testngexample.TestNGExample_01@2038ae61]" name="add1" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add1 -->
+        <test-method status="PASS" signature="batch()[pri:4, instance:org.testngexample.TestNGExample_01@2038ae61]" name="batch" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batch -->
+      </class> <!-- org.testngexample.TestNGExample_01 -->
+      <class name="org.testngexample.TestNGPriorityExample2">
+        <test-method status="PASS" signature="add()[pri:0, instance:org.testngexample.TestNGPriorityExample2@887af79]" name="add" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="getShow1()[pri:0, instance:org.testngexample.TestNGPriorityExample2@887af79]" name="getShow1" duration-ms="1" started-at="2023-01-21T15:28:13 IST" description="Show method priority - 0" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShow1 -->
+        <test-method status="PASS" signature="getShow2()[pri:1, instance:org.testngexample.TestNGPriorityExample2@887af79]" name="getShow2" duration-ms="0" started-at="2023-01-21T15:28:13 IST" finished-at="2023-01-21T15:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShow2 -->
+      </class> <!-- org.testngexample.TestNGPriorityExample2 -->
+    </test> <!-- C:/IntelliJWorkspace/AppiumLearningProject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
