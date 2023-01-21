@@ -82,7 +82,7 @@ static ExtentTest logger;
         logger.log(Status.INFO, MarkupHelper.createLabel("This is Test Logger 4", ExtentColor.ORANGE));
 
         Assert.assertFalse(false);
-        File file=new File("./screenshot_mobile/mobile-702820649.png");
+        File file=new File("screenshot_mobile/mobile-702820649.png");
         String dest=file.getAbsolutePath();
         System.out.println(dest);
         logger.log(Status.FAIL,logger.addScreenCaptureFromPath(dest)+"Image");
