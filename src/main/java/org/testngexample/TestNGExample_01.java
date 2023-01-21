@@ -2,7 +2,7 @@ package org.testngexample;
 
 import org.testng.annotations.Test;
 
-public class TestNGExample_01 extends DotTestListener {
+public class TestNGExample_01 {
 
     @Test(priority = 0)
     public void getShow1(){
