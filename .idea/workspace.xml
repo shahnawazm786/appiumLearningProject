@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/extentreportsdemo/ExtenReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/extentreportsdemo/ExtenReportExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,13 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673489970051</updated>
-    </task>
-    <task id="LOCAL-00011" summary="shahnawaz - 15 Jan 2023&#10;Calculator Test">
-      <created>1674008334210</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1674008334210</updated>
     </task>
     <task id="LOCAL-00012" summary="shahnawaz - 18 Jan 2023&#10;Calculator Test">
       <created>1674008548868</created>
@@ -505,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674299482154</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674299632393</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1674299632393</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

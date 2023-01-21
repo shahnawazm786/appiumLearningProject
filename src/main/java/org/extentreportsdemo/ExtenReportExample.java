@@ -79,8 +79,9 @@ static ExtentTest logger;
         logger.log(Status.INFO, MarkupHelper.createLabel("This is Test Logger 3", ExtentColor.INDIGO));
         logger.log(Status.INFO, MarkupHelper.createLabel("This is Test Logger 4", ExtentColor.ORANGE));
 
-        Assert.assertFalse(true);
-        logger.log(Status.FAIL,"Faiiled");
+        Assert.assertFalse(false);
+        logger.log(Status.FAIL,logger.addScreenCaptureFromPath("")+"Faiiled");
+
  // Using Labels
 
 
