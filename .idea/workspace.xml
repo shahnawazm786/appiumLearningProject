@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/extentreportsdemo/ExtenReportExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-18_9_01_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-18_9_01_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-20_9_41_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-20_9_41_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-20_9_49_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-20_9_49_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extent-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/testngexample/TestNGExample_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testngexample/TestNGExample_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/extentreportsdemo/ExtenReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/extentreportsdemo/ExtenReportExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,7 @@
       <recent name="C:\IntelliJWorkspace\AppiumLearningProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/IntelliJWorkspace/AppiumLearningProject/testng.xml">
+  <component name="RunManager" selected="TestNG.ExtenReportExample">
     <configuration name="GetScreenShotExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mobile.GetScreenShotExample" />
       <module name="AppiumLearningProject" />
@@ -93,18 +89,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExample.Test_Case01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtenReportExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.testngexample.*" />
+          <option name="PATTERN" value="org.extentreportsdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.testngexample" />
-      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestExample" />
-      <option name="METHOD_NAME" value="Test_Case01" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="org.extentreportsdemo" />
+      <option name="MAIN_CLASS_NAME" value="org.extentreportsdemo.ExtenReportExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -147,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExtenReportExample" />
         <item itemvalue="TestNG.C:/IntelliJWorkspace/AppiumLearningProject/testng.xml" />
         <item itemvalue="TestNG.TestNGExample_03" />
         <item itemvalue="TestNG.TestNGExample_01" />
         <item itemvalue="Application.GetScreenShotExample" />
-        <item itemvalue="TestNG.TestExample.Test_Case01" />
       </list>
     </recent_temporary>
   </component>
@@ -163,48 +158,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673489970051</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Raman">
-      <created>1673493573512</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673493573512</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Ramantest">
-      <created>1673494430871</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1673494430871</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Raman">
-      <created>1673494559879</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1673494559879</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ramantest">
-      <created>1673495011195</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1673495011195</updated>
-    </task>
-    <task id="LOCAL-00005" summary="ramantest2">
-      <created>1673495145835</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1673495145835</updated>
-    </task>
-    <task id="LOCAL-00006" summary="ramantest2">
-      <created>1673495222195</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1673495222195</updated>
     </task>
     <task id="LOCAL-00007" summary="shahnawaz - 15 Jan 2023&#10;Calculator Test">
       <created>1673924091553</created>
@@ -486,7 +439,70 @@
       <option name="project" value="LOCAL" />
       <updated>1674275209912</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674295839286</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1674295839286</updated>
+    </task>
+    <task id="LOCAL-00048" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674295846117</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1674295846117</updated>
+    </task>
+    <task id="LOCAL-00049" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674295852075</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1674295852075</updated>
+    </task>
+    <task id="LOCAL-00050" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674295858510</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1674295858511</updated>
+    </task>
+    <task id="LOCAL-00051" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674295880682</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1674295880682</updated>
+    </task>
+    <task id="LOCAL-00052" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674295914079</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1674295914079</updated>
+    </task>
+    <task id="LOCAL-00053" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674295994625</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1674295994625</updated>
+    </task>
+    <task id="LOCAL-00054" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674296198269</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1674296198269</updated>
+    </task>
+    <task id="LOCAL-00055" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
+      <created>1674296311207</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1674296311207</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
