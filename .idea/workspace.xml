@@ -4,25 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 18 Jan 2023&#10;Calculator Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/AlkaAppsOpenedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/AmazonHybridAppsAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/exceloperations/ReadExcelUisngXSSF.java" afterDir="false" />
+    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="&#10;well">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_28__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,92 +29,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.ReadExcelUisngXSSF">
-    <configuration name="AlkaAppsOpenedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.AlkaAppsOpenedClass" />
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AmazonHybridAppsAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.AmazonHybridAppsAccess" />
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataReadingFromExcelExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exceloperations.DataReadingFromExcelExample" />
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.exceloperations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExcelSecondOption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exceloperations.ExcelSecondOption" />
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.exceloperations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadExcelUisngXSSF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exceloperations.ReadExcelUisngXSSF" />
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.exceloperations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ReadExcelUisngXSSF" />
-        <item itemvalue="Application.AlkaAppsOpenedClass" />
-        <item itemvalue="Application.AmazonHybridAppsAccess" />
-        <item itemvalue="Application.ExcelSecondOption" />
-        <item itemvalue="Application.DataReadingFromExcelExample" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -173,63 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673495222195</updated>
     </task>
-    <task id="LOCAL-00007" summary="shahnawaz - 15 Jan 2023&#10;Calculator Test">
-      <created>1673924091553</created>
+    <task id="LOCAL-00007" summary="Commit">
+      <created>1673498957805</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1673924091553</updated>
+      <updated>1673498957805</updated>
     </task>
-    <task id="LOCAL-00008" summary="shahnawaz - 15 Jan 2023&#10;Calculator Test">
-      <created>1673928570562</created>
+    <task id="LOCAL-00008" summary="&#10;well">
+      <created>1674093529308</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1673928570562</updated>
+      <updated>1674093529309</updated>
     </task>
-    <task id="LOCAL-00009" summary="shahnawaz - 15 Jan 2023&#10;Calculator Test">
-      <created>1673931886138</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1673931886138</updated>
-    </task>
-    <task id="LOCAL-00010" summary="shahnawaz - 15 Jan 2023&#10;Calculator Test">
-      <created>1674007886290</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1674007886290</updated>
-    </task>
-    <task id="LOCAL-00011" summary="shahnawaz - 15 Jan 2023&#10;Calculator Test">
-      <created>1674008334210</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1674008334210</updated>
-    </task>
-    <task id="LOCAL-00012" summary="shahnawaz - 18 Jan 2023&#10;Calculator Test">
-      <created>1674008548868</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1674008548868</updated>
-    </task>
-    <task id="LOCAL-00013" summary="shahnawaz - 18 Jan 2023&#10;Calculator Test">
-      <created>1674012924362</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1674012924362</updated>
-    </task>
-    <task id="LOCAL-00014" summary="shahnawaz - 18 Jan 2023&#10;Calculator Test">
-      <created>1674015096162</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1674015096162</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,18 +120,8 @@
     <MESSAGE value="Raman" />
     <MESSAGE value="ramantest" />
     <MESSAGE value="ramantest2" />
-    <MESSAGE value="shahnawaz - 15 Jan 2023&#10;Calculator Test" />
-    <MESSAGE value="shahnawaz - 18 Jan 2023&#10;Calculator Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 18 Jan 2023&#10;Calculator Test" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Commit" />
+    <MESSAGE value="&#10;well" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;well" />
   </component>
 </project>
