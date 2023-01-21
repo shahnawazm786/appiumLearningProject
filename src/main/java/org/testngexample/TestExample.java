@@ -30,8 +30,6 @@ public class TestExample {
         driver.findElement(AppiumBy.className("android.widget.EditText")).sendKeys("First Appium Project2");
         Thread.sleep(1000);
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(scrFile, new File("./screenshot"), true);
-
-
+        FileUtils.copyFile(scrFile, new File("./screenshot/abc1.png"), true);
     }
 }
