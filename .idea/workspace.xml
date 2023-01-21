@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="new commit by hans sidhu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/GetScreenShotExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/GetScreenShotExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/Calculator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/Calculator1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +25,6 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/mobile/SearchElementExample.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -42,9 +40,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/IntelliJWorkspace/AppiumLearningProject/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.4827586",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -53,9 +51,9 @@
       <recent name="C:\IntelliJWorkspace\AppiumLearningProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetScreenShotExample">
-    <configuration name="AddTextInTextExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.AddTextInTextExample" />
+  <component name="RunManager" selected="Application.FlipKart">
+    <configuration name="APIDemoAPPsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.APIDemoAPPsExample" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementByXpathExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.ElementByXpathExample" />
+    <configuration name="APIDemoLocatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.APIDemoLocatorExample" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +78,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetScreenShotExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.GetScreenShotExample" />
+    <configuration name="FlipKart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hanshbir.FlipKart" />
+      <module name="AppiumLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hanshbir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlipKartContinueClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.FlipKartContinueClick" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
@@ -93,49 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExample.Test_Case01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadExcelUisngXSSF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.exceloperations.ReadExcelUisngXSSF" />
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.testngexample.*" />
+          <option name="PATTERN" value="org.exceloperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.testngexample" />
-      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestExample" />
-      <option name="METHOD_NAME" value="Test_Case01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestExample.Test_Case01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.testngexample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.testngexample" />
-      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestExample" />
-      <option name="METHOD_NAME" value="Test_Case01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetScreenShotExample" />
-        <item itemvalue="TestNG.TestExample.Test_Case01" />
-        <item itemvalue="TestNG.TestExample.Test_Case01 (1)" />
-        <item itemvalue="Application.AddTextInTextExample" />
-        <item itemvalue="Application.ElementByXpathExample" />
+        <item itemvalue="Application.FlipKart" />
+        <item itemvalue="Application.APIDemoLocatorExample" />
+        <item itemvalue="Application.APIDemoAPPsExample" />
+        <item itemvalue="Application.FlipKartContinueClick" />
+        <item itemvalue="Application.ReadExcelUisngXSSF" />
       </list>
     </recent_temporary>
   </component>
@@ -288,154 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674109972895</updated>
     </task>
-    <task id="LOCAL-00021" summary="shahnawaz - 19 Jan 2023&#10;API-Demos demo">
-      <created>1674119983887</created>
+    <task id="LOCAL-00021" summary="new commit by hans sidhu">
+      <created>1674253923440</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1674119983887</updated>
+      <updated>1674253923440</updated>
     </task>
-    <task id="LOCAL-00022" summary="shahnawaz - 19 Jan 2023&#10;API-Demos demo">
-      <created>1674184838616</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1674184838616</updated>
-    </task>
-    <task id="LOCAL-00023" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674184851040</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1674184851040</updated>
-    </task>
-    <task id="LOCAL-00024" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674185074924</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1674185074924</updated>
-    </task>
-    <task id="LOCAL-00025" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674185541545</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1674185541545</updated>
-    </task>
-    <task id="LOCAL-00026" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674186771302</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1674186771302</updated>
-    </task>
-    <task id="LOCAL-00027" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674186813404</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1674186813404</updated>
-    </task>
-    <task id="LOCAL-00028" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674186832127</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1674186832127</updated>
-    </task>
-    <task id="LOCAL-00029" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674186853858</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1674186853858</updated>
-    </task>
-    <task id="LOCAL-00030" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674187056242</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1674187056242</updated>
-    </task>
-    <task id="LOCAL-00031" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674187740540</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1674187740540</updated>
-    </task>
-    <task id="LOCAL-00032" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674187982038</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1674187982038</updated>
-    </task>
-    <task id="LOCAL-00033" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674188131005</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1674188131005</updated>
-    </task>
-    <task id="LOCAL-00034" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674190230812</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1674190230812</updated>
-    </task>
-    <task id="LOCAL-00035" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674190260600</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1674190260600</updated>
-    </task>
-    <task id="LOCAL-00036" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674190427141</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1674190427141</updated>
-    </task>
-    <task id="LOCAL-00037" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674190543189</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1674190543189</updated>
-    </task>
-    <task id="LOCAL-00038" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674203674371</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1674203674371</updated>
-    </task>
-    <task id="LOCAL-00039" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674203977805</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1674203977806</updated>
-    </task>
-    <task id="LOCAL-00040" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674204536812</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1674204536812</updated>
-    </task>
-    <task id="LOCAL-00041" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674266409330</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1674266409330</updated>
-    </task>
-    <option name="localTasksCounter" value="42" />
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,8 +306,8 @@
     <MESSAGE value="shahnawaz - 18 Jan 2023&#10;Calculator Test" />
     <MESSAGE value="shahnawaz - 19 Jan 2023&#10;Calculator Test" />
     <MESSAGE value="shahnawaz - 19 Jan 2023&#10;API-Demos demo" />
-    <MESSAGE value="shahnawaz - 20 Jan 2023&#10;API-Demos demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 20 Jan 2023&#10;API-Demos demo" />
+    <MESSAGE value="new commit by hans sidhu" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit by hans sidhu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

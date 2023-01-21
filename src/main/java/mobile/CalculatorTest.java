@@ -21,10 +21,10 @@ public class CalculatorTest {
     }
     public static void openCalculatorDevice() throws MalformedURLException {
         DesiredCapabilities capabilities=new DesiredCapabilities();
-        capabilities.setCapability("deviceName","vivo 1920");
-        capabilities.setCapability("udid","26976198");
+        capabilities.setCapability("deviceName","Redmi Note 8 Pro");
+        capabilities.setCapability("udid","jzz57xbqcqtw7xi7");
         capabilities.setCapability("platformName","Android");
-        capabilities.setCapability("platformVersion","12");
+        capabilities.setCapability("platformVersion","12.5.10");
         //capabilities.setCapability("automationName","UiAutomator1");
 //
         capabilities.setCapability("appPackage","com.android.bbkcalculator");
