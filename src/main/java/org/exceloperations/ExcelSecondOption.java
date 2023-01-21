@@ -15,7 +15,7 @@ import java.io.IOException;
 public class ExcelSecondOption {
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
-        File file=new File("C:\\Users\\shahn\\OneDrive\\Desktop\\Appium-Batch-Morning\\Book1.xlsx");
+        File file=new File("C:\\Users\\shahn\\OneDrive\\Desktop\\Appium-Batch-Morning\\TestCases.xlsx");
         FileInputStream fileInputStream=new FileInputStream(file);
         if(fileInputStream==null){
             throw new FileNotFoundException("File not found....");

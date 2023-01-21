@@ -11,7 +11,7 @@ public class HashMapExample {
         Map<Integer,String> map=new HashMap<>();
         map.put(100, "Math");
         map.put(98, "Science");
-        map.put(99, "Physics");
+        map.put(99, "Physichs");
         // String, Integer
         map.put(100, "Social Studies"); // duplicate key in map
 
