@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51b40fc0-7b55-4aea-b95a-159b03cf10bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hari/TestNGExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_28__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_51_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-01-11_10_54_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/New/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/New/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/SearchElementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/SearchElementExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceloperations/DataReadingFromExcelExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exceloperations/DataReadingFromExcelExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceloperations/ExcelSecondOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/exceloperations/ExcelSecondOption.java" afterDir="false" />
+    <list default="true" id="51b40fc0-7b55-4aea-b95a-159b03cf10bd" name="Changes" comment="Harry 21st Jan">
+      <change beforePath="$PROJECT_DIR$/src/main/java/hari/TestNGExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hari/TestNGExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673495222195</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Harry 21st Jan">
+      <created>1674270752294</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674270752294</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Harry 21st Jan">
+      <created>1674270907569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674270907569</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +146,7 @@
     <MESSAGE value="Raman" />
     <MESSAGE value="ramantest" />
     <MESSAGE value="ramantest2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ramantest2" />
+    <MESSAGE value="Harry 21st Jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Harry 21st Jan" />
   </component>
 </project>
