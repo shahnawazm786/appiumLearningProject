@@ -2,9 +2,22 @@ package mobile;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.AppiumW3CHttpCommandCodec;
+import javafx.scene.input.TouchPoint;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.DriverCommand;
 
 import java.net.URL;
+import java.util.HashMap;
 
 public class SearchElementExample {
     public static void main(String[] args) throws Exception{
@@ -23,7 +36,6 @@ public class SearchElementExample {
         driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"Views\"]")).click();
         Thread.sleep(1000);
 
-        driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"Secure View\"]")).click();
         Thread.sleep(1000);
         driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"Filter\"]")).click();
         // search

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/AddTextInTextExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/AddTextInTextExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/GetScreenShotExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/GetScreenShotExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,9 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/mobile/SearchElementExample.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -32,62 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IntelliJWorkspace/AppiumLearningProject/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/IntelliJWorkspace/AppiumLearningProject/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4827586",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IntelliJWorkspace\AppiumLearningProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddTextInTextExample">
-    <configuration name="APIDemoAPPsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.APIDemoAPPsExample" />
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APIDemoLocatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.APIDemoLocatorExample" />
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccessibilityIDExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mobile.AccessibilityIDExample" />
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.GetScreenShotExample">
     <configuration name="AddTextInTextExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mobile.AddTextInTextExample" />
       <module name="AppiumLearningProject" />
@@ -114,13 +80,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetScreenShotExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mobile.GetScreenShotExample" />
+      <module name="AppiumLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestExample.Test_Case01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testngexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testngexample" />
+      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestExample" />
+      <option name="METHOD_NAME" value="Test_Case01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestExample.Test_Case01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testngexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testngexample" />
+      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestExample" />
+      <option name="METHOD_NAME" value="Test_Case01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetScreenShotExample" />
+        <item itemvalue="TestNG.TestExample.Test_Case01" />
+        <item itemvalue="TestNG.TestExample.Test_Case01 (1)" />
         <item itemvalue="Application.AddTextInTextExample" />
         <item itemvalue="Application.ElementByXpathExample" />
-        <item itemvalue="Application.AccessibilityIDExample" />
-        <item itemvalue="Application.APIDemoLocatorExample" />
-        <item itemvalue="Application.APIDemoAPPsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +393,49 @@
       <option name="project" value="LOCAL" />
       <updated>1674190260600</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674190427141</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1674190427141</updated>
+    </task>
+    <task id="LOCAL-00037" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674190543189</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1674190543189</updated>
+    </task>
+    <task id="LOCAL-00038" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674203674371</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1674203674371</updated>
+    </task>
+    <task id="LOCAL-00039" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674203977805</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1674203977806</updated>
+    </task>
+    <task id="LOCAL-00040" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674204536812</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1674204536812</updated>
+    </task>
+    <task id="LOCAL-00041" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674266409330</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1674266409330</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
