@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/GetScreenShotExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-01-2023_07_37_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/SearchElementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/SearchElementExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/testngexample/TestExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testngexample/TestExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/GetScreenShotExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/GetScreenShotExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -431,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674204536812</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
+      <created>1674266409330</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1674266409330</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

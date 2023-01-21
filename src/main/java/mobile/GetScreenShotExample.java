@@ -9,6 +9,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 import java.net.URL;
+import java.util.concurrent.ThreadLocalRandom;
+
+import static java.util.concurrent.ThreadLocalRandom.current;
 
 public class GetScreenShotExample {
     public static void main(String[] args) throws Exception{
@@ -27,7 +30,10 @@ public class GetScreenShotExample {
         driver.findElement(AppiumBy.accessibilityId("Accessibility")).click();
         File file= (File) driver.getScreenshotAs(OutputType.FILE);
         //TakesScreenshot file1 = (TakesScreenshot) driver.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(file,new File("./screenshot_mobile/mobile1.png"));
+        int number= ThreadLocalRandom.current().nextInt();
+        System.out.println(number);
+        String file_name="mobile"+number+".png";
+        FileUtils.copyFile(file,new File("./screenshot_mobile/"+file_name));
         System.out.println("Finished..............");
     }
 
