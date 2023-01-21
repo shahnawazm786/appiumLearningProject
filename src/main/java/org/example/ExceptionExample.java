@@ -20,7 +20,7 @@ public class ExceptionExample {
             try{
                 d=c/10;
             }catch(ArithmeticException ae){
-                System.out.println("Number can't devide by zero....");
+                System.out.println("Number can't divide by zero....");
                 d=c/15;
                 System.out.println("Program executed...."+d);
             }
