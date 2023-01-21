@@ -5,7 +5,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AppiumW3CHttpCommandCodec;
-import javafx.scene.input.TouchPoint;
+//import javafx.scene.input.TouchPoint;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.Point;
