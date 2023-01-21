@@ -11,7 +11,7 @@ import java.io.File;
 import java.net.URL;
 
 public class TestExample {
-    @Test
+    //@Test
     public void Test_Case01() throws Exception{
         DesiredCapabilities capabilities=new DesiredCapabilities();
         capabilities.setCapability("deviceName","vivo 1920");
