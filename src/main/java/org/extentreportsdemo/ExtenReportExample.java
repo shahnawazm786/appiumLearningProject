@@ -12,6 +12,8 @@ import org.testng.annotations.BeforeSuite;
 
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 public class ExtenReportExample {
 ExtentSparkReporter htmlReporter;
 ExtentReports reports;
@@ -80,7 +82,9 @@ static ExtentTest logger;
         logger.log(Status.INFO, MarkupHelper.createLabel("This is Test Logger 4", ExtentColor.ORANGE));
 
         Assert.assertFalse(false);
-        logger.log(Status.FAIL,logger.addScreenCaptureFromPath("")+"Faiiled");
+        File file=new File("./screenshot_mobile/mobile-702820649.png");
+        String dest=file.getAbsolutePath();
+        logger.log(Status.FAIL,logger.addScreenCaptureFromPath(dest)+"Image");
 
  // Using Labels
 
