@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/IntelliJWorkspace/AppiumLearningProject">
+        <classes>  <!--
+            <class name="org.testngexample.TestExample">
+            <methods><include name="Test_Case01"/></methods>
+      </class><class name="org.testngexample.TestNGExample_01">
+            <methods><include name="getShow1"/>
+                <include name="getShow2"/>
+                <include name="add"/>
+                <include name="add1"/>
+                <include name="batch"/>
+            </methods></class> -->
+            <class name="org.testngexample.TestNGPriorityExample2">
+                <methods><include name="getShow1"/>
+                    <include name="add"/>
+                    <include name="getShow2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
