@@ -9,7 +9,7 @@ import java.net.URL;
 
 public class ScrolltoElementExample {
     @Test
-    public void scrollToElement(){
+    public void scrollToElement() throws Exception{
         DesiredCapabilities capabilities=new DesiredCapabilities();
 
         capabilities.setCapability("deviceName","vivo 1920");
