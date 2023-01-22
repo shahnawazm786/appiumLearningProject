@@ -4,14 +4,16 @@ import io.appium.java_client.AppiumDriver;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.devtools.v85.input.model.TouchPoint;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
+
 
 import java.io.File;
 import java.net.URL;
 
 public class TestExample {
-    //@Test
+    @Test
     public void Test_Case01() throws Exception{
         DesiredCapabilities capabilities=new DesiredCapabilities();
         capabilities.setCapability("deviceName","vivo 1920");
@@ -27,9 +29,11 @@ public class TestExample {
         Thread.sleep(1000);
         driver.findElement(AppiumBy.xpath("(//android.widget.Button[@index=\"1\"])[1]")).click();
         Thread.sleep(1000);
+
         driver.findElement(AppiumBy.className("android.widget.EditText")).sendKeys("First Appium Project2");
         Thread.sleep(1000);
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrFile, new File("./screenshot/abc1.png"), true);
+
     }
 }
