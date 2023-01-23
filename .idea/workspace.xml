@@ -5,42 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/ViewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/BaseClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/ViewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/extentreportsdemo/ExtenReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/extentreportsdemo/ExtenReportExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/testngexample/AndroidBusinessValidationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testngexample/AndroidBusinessValidationExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/AppiumLearningProject.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/AppiumLearningProject.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.testngexample.TestNgReportExample.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/AppiumLearningProject.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/BaseClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/BaseClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/ViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ViewTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,45 +58,70 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="AndroidBusinessValidationExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseClassTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumLearningProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.testngexample.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="org.testngexample" />
-      <option name="MAIN_CLASS_NAME" value="org.testngexample.AndroidBusinessValidationExample" />
-      <option name="GROUP_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BaseClassTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtenReportExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseClassTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.extentreportsdemo.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.extentreportsdemo" />
-      <option name="MAIN_CLASS_NAME" value="org.extentreportsdemo.ExtenReportExample" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BaseClassTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseClassTest.setDriver" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BaseClassTest" />
+      <option name="METHOD_NAME" value="setDriver" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseClassTest.testOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumLearningProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BaseClassTest" />
+      <option name="METHOD_NAME" value="testOne" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -164,53 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNgReportExample.Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumLearningProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.testngexample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="org.testngexample" />
-      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestNgReportExample" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNgReportExample.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumLearningProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.testngexample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.testngexample" />
-      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestNgReportExample" />
-      <option name="METHOD_NAME" value="Test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ViewTest.AccessibilityTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumLearningProject" />
       <extension name="coverage">
@@ -232,10 +177,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ViewTest.AccessibilityTest" />
-        <item itemvalue="TestNG.ExtenReportExample" />
-        <item itemvalue="TestNG.AndroidBusinessValidationExample" />
-        <item itemvalue="TestNG.TestNgReportExample.Test1" />
-        <item itemvalue="TestNG.TestNgReportExample.Test" />
+        <item itemvalue="TestNG.BaseClassTest (2)" />
+        <item itemvalue="TestNG.BaseClassTest.testOne" />
+        <item itemvalue="TestNG.BaseClassTest.setDriver" />
+        <item itemvalue="TestNG.BaseClassTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -247,90 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673489970051</updated>
-    </task>
-    <task id="LOCAL-00032" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674187982038</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1674187982038</updated>
-    </task>
-    <task id="LOCAL-00033" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674188131005</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1674188131005</updated>
-    </task>
-    <task id="LOCAL-00034" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674190230812</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1674190230812</updated>
-    </task>
-    <task id="LOCAL-00035" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674190260600</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1674190260600</updated>
-    </task>
-    <task id="LOCAL-00036" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674190427141</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1674190427141</updated>
-    </task>
-    <task id="LOCAL-00037" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674190543189</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1674190543189</updated>
-    </task>
-    <task id="LOCAL-00038" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674203674371</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1674203674371</updated>
-    </task>
-    <task id="LOCAL-00039" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674203977805</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1674203977806</updated>
-    </task>
-    <task id="LOCAL-00040" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674204536812</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1674204536812</updated>
-    </task>
-    <task id="LOCAL-00041" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674266409330</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1674266409330</updated>
-    </task>
-    <task id="LOCAL-00042" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
-      <created>1674267089397</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1674267089397</updated>
-    </task>
-    <task id="LOCAL-00043" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
-      <created>1674267099047</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1674267099047</updated>
     </task>
     <task id="LOCAL-00044" summary="shahnawaz - 21 Jan 2023&#10;API-Demos demo">
       <created>1674269337449</created>
@@ -591,7 +452,91 @@
       <option name="project" value="LOCAL" />
       <updated>1674439061237</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449124836</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449124836</updated>
+    </task>
+    <task id="LOCAL-00082" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449137629</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449137630</updated>
+    </task>
+    <task id="LOCAL-00083" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449142692</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449142692</updated>
+    </task>
+    <task id="LOCAL-00084" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449146482</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449146482</updated>
+    </task>
+    <task id="LOCAL-00085" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449154824</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449154824</updated>
+    </task>
+    <task id="LOCAL-00086" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449158489</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449158489</updated>
+    </task>
+    <task id="LOCAL-00087" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449162825</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449162825</updated>
+    </task>
+    <task id="LOCAL-00088" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449166825</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449166825</updated>
+    </task>
+    <task id="LOCAL-00089" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449172178</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449172178</updated>
+    </task>
+    <task id="LOCAL-00090" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449181213</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449181213</updated>
+    </task>
+    <task id="LOCAL-00091" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449186285</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449186285</updated>
+    </task>
+    <task id="LOCAL-00092" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674449197028</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1674449197028</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

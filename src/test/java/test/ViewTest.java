@@ -5,10 +5,10 @@ import page.ViewPage;
 
 public class ViewTest extends BaseClassTest{
 
-    ViewPage viewPage;
+    ViewPage viewPage=new ViewPage(driver);
     @Test
     public void AccessibilityTest() throws Exception {
-        viewPage=new ViewPage(driver);
+
         viewPage.tapAccessibilityElement();
     }
 
