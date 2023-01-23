@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="37" started-at="2023-01-23T07:11:31 IST" finished-at="2023-01-23T07:11:31 IST">
+    <groups>
+    </groups>
+    <test name="AppiumLearningProject" duration-ms="37" started-at="2023-01-23T07:11:31 IST" finished-at="2023-01-23T07:11:31 IST">
+      <class name="org.testngexample.TestNgReportExample">
+        <test-method status="PASS" signature="Test()[pri:0, instance:org.testngexample.TestNgReportExample@5383967b]" name="Test" duration-ms="6" started-at="2023-01-23T07:11:31 IST" finished-at="2023-01-23T07:11:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:org.testngexample.TestNgReportExample@5383967b]" name="Test1" duration-ms="2" started-at="2023-01-23T07:11:31 IST" finished-at="2023-01-23T07:11:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- org.testngexample.TestNgReportExample -->
+    </test> <!-- AppiumLearningProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>

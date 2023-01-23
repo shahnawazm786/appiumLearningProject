@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 22 Jan 2023&#10;API-Demos demo">
+    <list default="true" id="40057eb9-b405-4a7f-ba21-f82b4fa8bf0b" name="Changes" comment="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testngexample/AndroidBusinessValidationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testngexample/TestNgReportExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/sccrollexample/ScrolltoElementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/sccrollexample/ScrolltoElementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/extent-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/extent-reports/mobile1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,27 +58,7 @@
       <recent name="C:\IntelliJWorkspace\AppiumLearningProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ScrolltoElementExample.scrollToElement">
-    <configuration name="C:/IntelliJWorkspace/AppiumLearningProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumLearningProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestNgReportExample">
     <configuration name="ExtenReportExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumLearningProject" />
       <extension name="coverage">
@@ -129,7 +112,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGExample_03" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNgReportExample" type="TestNG" nameIsGenerated="true">
+      <module name="AppiumLearningProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testngexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.testngexample" />
+      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestNgReportExample" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgReportExample.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumLearningProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testngexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.testngexample" />
+      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestNgReportExample" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgReportExample.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumLearningProject" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +178,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.testngexample" />
-      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestNGExample_03" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="org.testngexample.TestNgReportExample" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNgReportExample.Test1" />
+        <item itemvalue="TestNG.TestNgReportExample.Test" />
         <item itemvalue="TestNG.ScrolltoElementExample.scrollToElement" />
         <item itemvalue="TestNG.ExtenReportExample.TestCase003" />
         <item itemvalue="TestNG.ExtenReportExample" />
-        <item itemvalue="TestNG.C:/IntelliJWorkspace/AppiumLearningProject/testng.xml" />
-        <item itemvalue="TestNG.TestNGExample_03" />
       </list>
     </recent_temporary>
   </component>
@@ -164,13 +205,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673489970051</updated>
-    </task>
-    <task id="LOCAL-00026" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
-      <created>1674186771302</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1674186771302</updated>
     </task>
     <task id="LOCAL-00027" summary="shahnawaz - 20 Jan 2023&#10;API-Demos demo">
       <created>1674186813404</created>
@@ -508,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674389624997</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="shahnawaz - 23 Jan 2023&#10;API-Demos demo">
+      <created>1674436562777</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1674436562777</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -534,7 +575,8 @@
     <MESSAGE value="shahnawaz - 20 Jan 2023&#10;API-Demos demo" />
     <MESSAGE value="shahnawaz - 21 Jan 2023&#10;API-Demos demo" />
     <MESSAGE value="shahnawaz - 22 Jan 2023&#10;API-Demos demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 22 Jan 2023&#10;API-Demos demo" />
+    <MESSAGE value="shahnawaz - 23 Jan 2023&#10;API-Demos demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="shahnawaz - 23 Jan 2023&#10;API-Demos demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
