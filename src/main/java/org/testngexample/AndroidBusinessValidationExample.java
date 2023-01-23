@@ -38,7 +38,7 @@ public class AndroidBusinessValidationExample {
     public void verifyVeiwOptionText(){
         WebElement ele = driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"Views\"]"));
         String textOFView=ele.getText();
-        Assert.assertEquals("View",textOFView);
+        Assert.assertEquals("Views",textOFView);
 
     }
     @Test
@@ -59,7 +59,8 @@ public class AndroidBusinessValidationExample {
 
     @AfterClass
     public void tearDown(){
-        driver.close();
+        driver.quit();
+       //driver.close();
     }
 
 }
