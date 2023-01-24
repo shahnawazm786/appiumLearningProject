@@ -28,7 +28,7 @@ import java.time.Duration;
     }
 
 
-   // @AfterClass
+    @AfterClass
     public void tearDown(){
     driver.quit();
     }
