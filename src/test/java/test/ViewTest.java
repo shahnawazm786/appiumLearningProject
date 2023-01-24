@@ -1,14 +1,18 @@
 package test;
 
+
 import org.testng.annotations.Test;
 import page.ViewPage;
 
+
+
+
 public class ViewTest extends BaseClassTest{
 
-    ViewPage viewPage=new ViewPage(driver);
+     ViewPage viewPage;//=new ViewPage(getDriver());
     @Test
-    public void AccessibilityTest() throws Exception {
-
+    public void clickAccessibility(){
+        viewPage=new ViewPage(getDriver());
         viewPage.tapAccessibilityElement();
     }
 
