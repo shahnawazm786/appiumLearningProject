@@ -1,10 +1,13 @@
 package page;
 
-import io.appium.java_client.AppiumBy;
-import io.appium.java_client.AppiumDriver;
 
+import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utility.CommonFunctions;
+
 
 public class ViewPage {
     AppiumDriver driver;
@@ -12,27 +15,44 @@ public class ViewPage {
 public  ViewPage(AppiumDriver driver){
     this.driver=driver;
     PageFactory.initElements(driver,this);
-
 }
 // Members
-    WebElement accessibility=driver.findElement(AppiumBy.accessibilityId("Accessibility"));
-    WebElement animation=driver.findElement(AppiumBy.accessibilityId("Animation"));
-    WebElement app=driver.findElement(AppiumBy.accessibilityId("App"));
-    WebElement content=driver.findElement(AppiumBy.accessibilityId("Content"));
-    WebElement graphics=driver.findElement(AppiumBy.accessibilityId("Graphics"));
-    WebElement media=driver.findElement(AppiumBy.accessibilityId("Media"));
-    WebElement nfc=driver.findElement(AppiumBy.accessibilityId("NFC"));
-    WebElement os=driver.findElement(AppiumBy.accessibilityId("OS"));
-    WebElement preference=driver.findElement(AppiumBy.accessibilityId("Preference"));
-    WebElement text=driver.findElement(AppiumBy.accessibilityId("Text"));
-    WebElement views=driver.findElement(AppiumBy.accessibilityId("Views"));
+    @CacheLookup
+   @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Accessibility\"]")
+    private WebElement accessibility;
 
-//
+    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Animation\"]")
+    private WebElement animation;
+    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"App\"]")
+    private  WebElement app;
+    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Content\"]")
+    private  WebElement content;
+    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Graphics\"]")
+    private  WebElement graphics;
+    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Media\"]")
+    private WebElement media;
+    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"NFC\"]")
+    private WebElement nfc;
+    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"OS\"]")
+    private  WebElement os;
+    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Preference\"]")
+    private  WebElement preference;
+    @FindBy(xpath="//android.widget.TextView[@content-desc=\"Text\"]")
+    private  WebElement text;
+    @FindBy(xpath="//android.widget.TextView[@content-desc=\"Views\"]")
+    private  WebElement views;
+
     public void tapAccessibilityElement(){
+        CommonFunctions.waitForElementVisibility(driver,accessibility,2);
         accessibility.click();
     }
     public void tapAnimationElement(){
+
+
         animation.click();
+    }
+    public void tapAppElement(){
+        app.click();
     }
     public void tapContentElement(){
         content.click();
