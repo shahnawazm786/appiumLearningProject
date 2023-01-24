@@ -10,6 +10,7 @@ import java.time.Duration;
 
  class BaseClassTest {
  private static AppiumDriver driver=null;
+ //AppiumDriver driver=null;
  ViewPage viewPage;
     @BeforeClass
     public void setup() throws Exception{
@@ -23,23 +24,20 @@ import java.time.Duration;
         driver=new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        viewPage=new ViewPage(driver);
-
     }
+
+
+
 
      @AfterClass
      public void tearDown(){
          driver.quit();
      }
     //@Test
-    /*public AppiumDriver getDriver(){
+    public AppiumDriver getDriver(){
     return  this.driver;
-    }*/
+    }
 
-     @Test(priority = 1)
-     public void clickOnAccessibility(){
-         viewPage.tapAccessibilityElement();
-     }
 
 
 
